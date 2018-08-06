@@ -1,3 +1,3 @@
 # Public-code
 
-# For onlince source function archive.
+# For sourcing onlince function of R and Python.
