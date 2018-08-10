@@ -1,3 +1,9 @@
+# Usage of this function
+# library(data.table)
+# dlink<- download_link("https://figshare.com/s/ea86f50e6df67e81b873")
+# data<- fread(dlink)
+
+########################################################
 # R function
 # Donwload online data that hidden in the html source
 # This is special for Figshare weblinks
@@ -5,7 +11,7 @@
 download_link<- function(fileURL){
 
     # Get download link from http links
-    ########################################################
+    ####################################################
     library(stringr)
     library(rvest)
     library(XML)
