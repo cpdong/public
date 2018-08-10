@@ -2,7 +2,6 @@
 # library(data.table)
 # figlink<- download_link("https://figshare.com/s/ea86f50e6df67e81b873")
 # data<- fread(figlink)
-
 ########################################################
 # R function
 # Donwload online data that hidden in the html source
