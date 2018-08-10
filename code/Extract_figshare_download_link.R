@@ -1,4 +1,4 @@
-# Usage of this function
+# Usage example of this function
 # library(data.table)
 # dlink<- download_link("https://figshare.com/s/ea86f50e6df67e81b873")
 # data<- fread(dlink)
