@@ -8,9 +8,9 @@ tumo_Number<- 114
 
 #####DATA style#######
 # sample n1 n2 t1 t2 t3 t4
-# geneA	 1	1  2  2  3  2
-# geneB	 2	1  2  3  4  2
-# geneC	 2	1  1  2  1  2
+# geneA	 1  1  2  2  3  2
+# geneB	 1  1  2  3  4  2
+# geneC	 2  1  1  2  1  2
 ######################
 
 data<- read.table(paste(fileName) , row.names=1, header=T, stringsAsFactors=FALSE)
