@@ -13,7 +13,7 @@ fileName<- "TCGA_BRCA_Norm_Tumo_Matched_114Pairs_file.txt"
 
 data<- read.table(paste(fileName) , row.names=1, header=T, stringsAsFactors=FALSE)
 
-# read in all numeric value
+# read in as numeric value
 pairNum<- dim(data)[2]/2
 nor<- as.numeric(data[geneName,][1:pairNum])
 tum<- as.numeric(data[geneName,][(pairNum+1):(2*pairNum)])
