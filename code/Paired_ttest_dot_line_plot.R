@@ -6,9 +6,9 @@ fileName<- "TCGA_BRCA_Norm_Tumo_Matched_114Pairs_file.txt"
 
 #####DATA style#######
 # sample n1 n2 t1 t2
-# geneA	 1	1  2  2
-# geneB	 2	1  2  2
-# geneC	 2	1  1  1
+# geneA	 1  1  2  2
+# geneB	 2  1  2  2
+# geneC	 2  1  1  1
 ######################
 
 data<- read.table(paste(fileName) , row.names=1, header=T, stringsAsFactors=FALSE)
