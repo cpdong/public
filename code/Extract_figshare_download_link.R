@@ -1,5 +1,5 @@
 # Usage example of this function
-# source("https://raw.githubusercontent.com/cpdong/pubCORE/master/code/Extract_figshare_download_link.R")
+# source("https://raw.githubusercontent.com/cpdong/public/master/code/Extract_figshare_download_link.R")
 # library(data.table)
 # figlink<- download_link("https://figshare.com/s/ea86f50e6df67e81b873")
 # data<- fread(figlink)
