@@ -1,4 +1,4 @@
-# source("CanTF_regNet_tcga.R")
+# source("https://raw.githubusercontent.com/cpdong/public/master/code/projects/CanTF_regNet_tcga.R")
 # regNet= regNet_tcga
 
 
