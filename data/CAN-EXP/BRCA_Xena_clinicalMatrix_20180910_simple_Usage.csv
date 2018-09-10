@@ -1,4 +1,4 @@
-sampleID,PAM50Call_RNAseq,age,er,pr,her2_ihc,margin_status,stage,t_stage,n_stage,m_stage
+sampleID,PAM50,age,er,pr,her2_ihc,margin_status,stage,t_stage,n_stage,m_stage
 TCGA.3C.AAAU.01,,55,Positive,Positive,Negative,Negative,,,NX,MX
 TCGA.3C.AALI.01,,50,Positive,Positive,Positive,Negative,2,2,N1,M0
 TCGA.3C.AALJ.01,,62,Positive,Positive,Indeterminate,Negative,2,2,N1,M0
