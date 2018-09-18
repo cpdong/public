@@ -1,4 +1,6 @@
 # Code for making 2-dimension multidimentional scaling(MDS) plot
+# https://rpubs.com/crazyhottommy/PCA_MDS
+# also someone mention kmean for cluster, but donot know its advantage
 
 setwd("path/to/your/file")
 
