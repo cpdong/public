@@ -8,7 +8,7 @@
 # genename couldn't be numeric!
 # add 'G' for entrezgene id
 
-dir="C:/Users/Chuanpeng/Desktop/refine"
+# dir="C:/Users/Chuanpeng/Desktop/refine"
 
 import os, sys
 import pandas as pd
