@@ -37,6 +37,7 @@ geo_id<- read.csv("https://raw.githubusercontent.com/cpdong/public/master/data/C
 regNet_geo<- regNet[which(regNet$entrezgene %in% (intersect(regNet$entrezgene, geo_id$ENTREZ_GENE_ID))), ]
 entrezgene<- regNet_geo[,1]
 regNet_geo<- regNet_geo[,-1]
+regNet_geo<- regNet_geo[, which(colnames(regNet_geo) %in% (intersect(colnames(regNet_geo), geo_id$ENTREZ_GENE_ID)))]
 
 regNet_geo<- cbind(entrezgene, regNet_geo)
 
