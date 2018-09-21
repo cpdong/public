@@ -35,10 +35,10 @@ regNet<- mat[!duplicated(mat$entrezgene),]
 geo_id<- read.csv("https://raw.githubusercontent.com/cpdong/public/master/data/CAN-EXP/GPL570_ID_convert.csv", header=T, stringsAsFactors=F)
 
 regNet_geo<- regNet[which(regNet$entrezgene %in% (intersect(regNet$entrezgene, geo_id$ENTREZ_GENE_ID))), ]
-entrez_id<- regNet_geo[,1]
+entrezgene<- regNet_geo[,1]
 regNet_geo<- regNet_geo[,-1]
 
-regNet_geo<- cbind(entrez_id, regNet_geo)
+regNet_geo<- cbind(entrezgene, regNet_geo)
 
 write.csv(regNet_geo, "ChIPBaseV2_regNet_GPL570.csv", row.names=F, quote=F)
 #
