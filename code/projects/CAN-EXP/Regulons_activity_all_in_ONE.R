@@ -58,7 +58,7 @@ system(paste("sed -i 's|dir='/path/to/your/file'|dir=\"",dir, "\"|g' GRNBoost2_c
 system(paste("python ", dir, "GRNBoost2_co-expression.py", sep=''))
 # end of python run
 
-# part 3: coexpression with GRNBoost2
+# part 3: calculate AUCell for patients
 #############################################################################
 matrix<- as.matrix(d6)
 
