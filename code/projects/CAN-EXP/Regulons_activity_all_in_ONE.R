@@ -123,7 +123,8 @@ write.csv(result, paste(GSE_ID, "_", platform, "_patients_regulon_activity.csv",
 #
 
 # remove temp files
-fn <- c("GRNBoost2_co-expression.py","ex_GRNboost2_network.tsv", "feed2python.csv", "regNet_tf.csv", "feed2python.csv")
+fn <- c("GRNBoost2_co-expression.py","ex_GRNboost2_network.tsv", "feed2python.csv", "regNet_tf.csv", "dask-worker-space")
 for(i in 1: length(fn)){
-    if (file.exists(fn[i])) file.remove(fn[i])
+    # if (file.exists(fn[i])) file.remove(fn[i], recursive = TRUE)
+	if (file.exists(fn[i])) unlink(fn[i], recursive = TRUE, force = TRUE)
 }
