@@ -1,9 +1,12 @@
 # /home/cpdong/R35/R-3.5.0/bin/R
 #############################################################
-GSE_ID= "GSE17907"
-platform= "GPL570"
-dir="/home/cpdong/Desktop/demo/"
+# GSE_ID= "GSE17907"
+# platform= "GPL570"
+# dir="/home/cpdong/Desktop/demo/"
 #############################################################
+# source("https://raw.githubusercontent.com/cpdong/public/master/code/projects/CAN-EXP/Regulons_activity_all_in_ONE.R")
+#############################################################
+
 setwd(dir)
 
 # get download link from github record file
