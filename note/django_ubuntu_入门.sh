@@ -2,9 +2,10 @@
 sudo pip install virtualenv virtualenvwrapper
 
 # how to use virtualenv
-virtualenv --no-site-package myenv
-python -m virtualenv myvenv
-source myvenv/bin/activate
-
+sudo pip install virtualenv virtualenvwrapper
+# how to use virtualenv
+cd projects
+. myenv/bin/activate
+# pip install django
 
 django-admin startproject mysite
