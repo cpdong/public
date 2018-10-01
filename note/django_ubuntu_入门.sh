@@ -1,1 +1,2 @@
 # 
+django-admin startproject mysite
