@@ -1,0 +1,6 @@
+# install "XML" for R 
+sudo apt-get update
+sudo apt-get install libxml2-dev
+
+# install "RCurl" for R
+sudo apt-get install libcurl4-openssl-dev
