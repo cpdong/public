@@ -1,0 +1,2 @@
+Quora: How can we compare feature ranking using pearson correlation coefficient with feature ranking using fisher score?
+https://www.quora.com/How-can-we-compare-feature-ranking-using-pearson-correlation-coefficient-with-feature-ranking-using-fisher-score
