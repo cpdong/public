@@ -2,7 +2,7 @@
 #############################################################
 # GSE_ID= "GSE17907"
 # platform= "GPL570"
-# acu_percentage=0.2
+# acu_percentage=0.15
 # dir="/home/cpdong/Desktop/demo/"
 #############################################################
 # source("https://raw.githubusercontent.com/cpdong/public/master/code/projects/CAN-EXP/Regulons_activity_all_in_ONE.R")
