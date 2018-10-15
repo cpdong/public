@@ -22,10 +22,8 @@ pCoxSurvUni <- function (surv, ind_surv, classification) {
 # d1<- read.csv("TCGA_BRCA_patients_regulon_activity_only_tumor.csv", header=T, row.names=1, stringsAsFactors=F)
 # d2<- read.csv("https://raw.githubusercontent.com/cpdong/public/master/data/CAN-EXP/BRCA_Xena_clinicalMatrix_20180910.csv",header=T, row.names=1, stringsAsFactors=F)
 
-d2<- d2[, c("OS.time", "OS")]
-
-data<- merge(t(d1), d2, by="row.names", all.x=T)
-# data<-read.csv("dataAll.csv", stringsAsFactors=F)
+# d2<- d2[, c("OS.time", "OS")]
+# data<- merge(t(d1), d2, by="row.names", all.x=T)
 
 result<-data.frame(Gene=c(NA), OS_median_km=c(NA), OS_median_cox_u_p=c(NA), OS_median_cox_u_hr=c(NA),
                     OS_median_cox_u_lower=c(NA), OS_median_cox_u_upper=c(NA))
