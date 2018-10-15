@@ -19,12 +19,13 @@ link<- dlink[,4]
 source("https://raw.githubusercontent.com/cpdong/public/master/code/Extract_figshare_download_link.R")
 library(data.table)
 figlink<- download_link(link)
-d1<- data.frame(fread(figlink), row.names=1)
+d1<- data.frame(fread(figlink))
+# d1<- data.frame(fread(figlink), row.names=1)
 # d1<- read.table(paste(filename), row.names=1, header=T,sep='\t', stringsAsFactors=F)
 
 d2<- read.csv(paste("https://raw.githubusercontent.com/cpdong/public/master/data/CAN-EXP/", platform, "_ID_convert.csv", sep=''), header=T, stringsAsFactors=F)
 # d3<- cbind(d2[, "gene_symbol"][match(rownames(d1), d2[,"gene_symbol"])], d1)
-d3<- merge(d2, d1, by.x='Gene.Symbol', by.y='row.names', all.x=T)
+d3<- merge(d2, d1, by.x='Gene.Symbol', by.y='sample', all.x=T)
 d3<- d3[,-1]
 
 # fileter row with 0 value as median
