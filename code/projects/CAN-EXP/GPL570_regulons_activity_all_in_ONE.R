@@ -19,8 +19,7 @@ link<- dlink[,4]
 source("https://raw.githubusercontent.com/cpdong/public/master/code/Extract_figshare_download_link.R")
 library(data.table)
 figlink<- download_link(link)
-d1<- data.frame(fread(figlink))
-# d1<- data.frame(fread(figlink), row.names=1)
+d1<- data.frame(fread(figlink), row.names=1)
 # d1<- read.table(paste(filename), row.names=1, header=T,sep='\t', stringsAsFactors=F)
 
 d2<- read.csv(paste("https://raw.githubusercontent.com/cpdong/public/master/data/CAN-EXP/", platform, "_ID_convert.csv", sep=''), header=T, stringsAsFactors=F)
