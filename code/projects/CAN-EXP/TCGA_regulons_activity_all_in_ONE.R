@@ -3,6 +3,8 @@
 # acu_percentage=0.15
 # dir="/home/cpdong/Desktop/activity0.15/TCGA/"
 # filename<- "TCGA_BRCA_Norm_tumo_ranked_file.txt"
+
+# source("https://raw.githubusercontent.com/cpdong/public/master/code/projects/CAN-EXP/TCGA_regulons_activity_all_in_ONE.R")
 #############################################################
 
 setwd(dir)
