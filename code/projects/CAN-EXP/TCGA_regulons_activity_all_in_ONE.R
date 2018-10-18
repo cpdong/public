@@ -151,6 +151,7 @@ for(i in 1: length(fn)){
 }
 #
 #
-#
-#
+# cleaner!!
+# clear all objects
+rm(list = ls(all.names = TRUE))
 #
