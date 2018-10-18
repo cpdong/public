@@ -10,7 +10,7 @@
 
 dir=/path/to/your/file
 #############################################################################
-import os, sys, re
+import os, sys, re, gc
 import pandas as pd
 os.chdir(dir)
 
@@ -34,3 +34,5 @@ network.to_csv('ex_GRNboost2_network.tsv', sep='\t', header=False, index=False)
 
 # release the memory from python
 del ex_matrix, matrix, df, df2, tf_names, network
+
+gc.collect()
