@@ -92,13 +92,13 @@ system(paste("python ", dir, "GRNBoost2_co-expression.py", sep=''))
 
 # part 3: calculate AUCell for patients
 #############################################################################
-matrix<- as.matrix(d6)
+matrix1<- as.matrix(d6)
 
-overlapped_tfs<- intersect(rownames(matrix), gsub('X', '', names(d4)))
+overlapped_tfs<- intersect(rownames(matrix1), gsub('X', '', names(d4)))
 
 # get spearman correlation to judge the positive or negative
 # only left tfs correlation relations
-corrMat <- cor(t(matrix), method="spearman")
+corrMat <- cor(t(matrix1), method="spearman")
 cor_tfs<- corrMat[, which(colnames(corrMat) %in% overlapped_tfs)]
 
 # get result from GRNboost2
@@ -142,7 +142,7 @@ for(i in 1:length(overlapped_tfs)){
 }
 geneSets<- geneSets[-1]
 
-rankings <- AUCell_buildRankings(matrix, nCores=4, plotStats=TRUE)
+rankings <- AUCell_buildRankings(matrix1, nCores=4, plotStats=FALSE)
 #
 #
 #
@@ -164,6 +164,9 @@ for(i in 1: length(fn)){
     # if (file.exists(fn[i])) file.remove(fn[i], recursive = TRUE)
 	if (file.exists(fn[i])) unlink(fn[i], recursive = TRUE, force = TRUE)
 }
-# cleaner!!
-# clear all objects
-rm(list = ls(all.names = TRUE))
+#
+#
+# clear and release memory
+rm(d1,d2,d3,d4,d5,d6,matrix1,overlapped_tfs, corrMat, cor_tfs,network, netGet,chipbase_links,cor_tfs_spearman,chipseq_tg,GRNboost2_tg,
+   cor_tfs_positive_tg,hgnc_symbol,positve_regulons, geneSets, rankings, AUCs, result)
+#
