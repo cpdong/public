@@ -11,7 +11,7 @@ setwd(dir)
 
 d1<- read.table(paste(filename), row.names=1, header=T,sep='\t', stringsAsFactors=F)
 d1<- d1[,which(substr(colnames(d1), 14, 15)=="01")]
-d2<- read.csv("https://raw.githubusercontent.com/cpdong/public/master/data/CAN-EXP/TCGA_illuminahiseq_rnaseqv2_entrezgene.csv", header=T, stringsAsFactors=F)
+d2<- read.table("https://raw.githubusercontent.com/cpdong/public/master/data/TCGA_ucsc_xena_id_from_gadc_firehose.txt", header=T, sep='\t', stringsAsFactors=F)
 
 # d3<- cbind(d2[, "gene_symbol"][match(rownames(d1), d2[,"gene_symbol"])], d1)
 d3<- merge(d2, d1, by.x='gene_symbol', by.y='row.names', all.x=T)
