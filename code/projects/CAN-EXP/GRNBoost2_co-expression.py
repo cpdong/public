@@ -31,3 +31,6 @@ tf_names= [re.sub("X", "G", x) for x in tf_names]
 network = grnboost2(expression_data=matrix, tf_names=tf_names)
 
 network.to_csv('ex_GRNboost2_network.tsv', sep='\t', header=False, index=False)
+
+# release the memory from python
+del ex_matrix, matrix, df, df2, tf_names, network
