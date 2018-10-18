@@ -7,7 +7,23 @@
 #############################################################
 # source("https://raw.githubusercontent.com/cpdong/public/master/code/projects/CAN-EXP/Regulons_activity_all_in_ONE.R")
 #############################################################
-
+#
+#
+#
+#
+#
+#
+# get the top percentage of GRNBoost2 importance 
+GRNBoost2_importance_percentage= 0.05
+# Get the AUCell calculate percentage
+AUCell_percentage=c(0.10, 0.15, 0.20, 0.25)
+#
+#
+#
+#
+#
+#
+#
 setwd(dir)
 
 # get download link from github record file
@@ -78,8 +94,7 @@ cor_tfs<- corrMat[, which(colnames(corrMat) %in% overlapped_tfs)]
 network<- read.table(file = 'ex_GRNboost2_network.tsv', sep = '\t', header = F)
 names(network)<- c("TF", "target", "importance")
 # select n% of the important links
-percentage= 5
-netGet<- network[1:round(percentage* dim(network)[1]/100), ]
+netGet<- network[1:round(GRNBoost2_importance_percentage* dim(network)[1]/100), ]
 netGet[,1]<- gsub('G', '', netGet[,1])
 netGet[,2]<- gsub('G', '', netGet[,2])
 ################################################################
@@ -116,14 +131,21 @@ for(i in 1:length(overlapped_tfs)){
 geneSets<- geneSets[-1]
 
 rankings <- AUCell_buildRankings(matrix, nCores=4, plotStats=TRUE)
-# decide the percenage of top importance for est AUCell
-AUCs <- AUCell_calcAUC(geneSets, rankings, aucMaxRank = ceiling(acu_percentage * nrow(rankings)), verbose = TRUE)
-
-result<- getAUC(AUCs)
-
-write.csv(result, paste(GSE_ID, "_", platform, "_patients_regulon_activity.csv",sep=''), row.names=T, quote=F)
 #
+#
+#
+#
+# decide the percenage of top importance for est AUCell
+for(i in 1:length(AUCell_percentage)){
+    AUCs <- AUCell_calcAUC(geneSets, rankings, aucMaxRank = ceiling(AUCell_percentage[i] * nrow(rankings)), verbose = TRUE)
+    result<- getAUC(AUCs)
 
+    write.csv(result, paste(GSE_ID, "_", platform, "_patients_regulon_activity_", AUCell_percentage[i], ".csv", sep=''), row.names=T, quote=F)
+}
+#
+#
+#
+#
 # remove temp files
 fn <- c("GRNBoost2_co-expression.py","ex_GRNboost2_network.tsv", "feed2python.csv", "regNet_tf.csv", "dask-worker-space")
 for(i in 1: length(fn)){
