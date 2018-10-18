@@ -1,12 +1,24 @@
-# /home/cpdong/R35/R-3.5.0/bin/R
-#############################################################
-# GSE_ID= "GSE17907"
-# platform= "GPL570"
-# acu_percentage=0.15
-# dir="/home/cpdong/Desktop/demo/"
-#############################################################
-# source("https://raw.githubusercontent.com/cpdong/public/master/code/projects/CAN-EXP/Regulons_activity_all_in_ONE.R")
-#############################################################
+# RUN in pipelines
+#GEOlist<- read.csv("https://raw.githubusercontent.com/cpdong/public/master/data/CAN-EXP/BRCA/BRCAlink.csv", header=T, stringsAsFactors=F)
+#GEOlist<- GEOlist[which(GEOlist$platform=="GPL570"),]
+#GPL570_list<- as.character(GEOlist[,1])
+
+#for(m in 1:length(GPL570_list)){
+    #############################################################
+#    GSE_ID= GPL570_list[m]
+#    platform= "GPL570"
+
+#    dir="/home/cpdong/Desktop/regulonActivity/GPL570/"
+    #############################################################
+#    source("https://raw.githubusercontent.com/cpdong/public/master/code/projects/CAN-EXP/GPL570_regulons_activity_all_in_ONE.R")
+#}
+#
+#
+#
+#
+#
+#
+#
 #
 #
 #
