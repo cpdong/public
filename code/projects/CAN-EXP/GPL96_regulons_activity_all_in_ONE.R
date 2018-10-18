@@ -170,3 +170,6 @@ for(i in 1: length(fn)){
     # if (file.exists(fn[i])) file.remove(fn[i], recursive = TRUE)
 	if (file.exists(fn[i])) unlink(fn[i], recursive = TRUE, force = TRUE)
 }
+# cleaner!!
+# clear all objects
+rm(list = ls(all.names = TRUE))
