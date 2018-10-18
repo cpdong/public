@@ -1,12 +1,29 @@
 # TCGA regulon estimator
 #############################################################
-# acu_percentage=0.15
-# dir="/home/cpdong/Desktop/activity0.15/TCGA/"
+# dir="/home/cpdong/Desktop/regulonActivity/TCGA/"
 # filename<- "TCGA_BRCA_Norm_tumo_ranked_file.txt"
-
 # source("https://raw.githubusercontent.com/cpdong/public/master/code/projects/CAN-EXP/TCGA_regulons_activity_all_in_ONE.R")
+#
+#
+#
+#
+#
+#
+#
+# get the top percentage of GRNBoost2 importance 
+GRNBoost2_importance_percentage= 0.05
+# Get the AUCell calculate percentage
+AUCell_percentage=c(0.10, 0.15, 0.20, 0.25)
+#
+#
+#
+#
+#
+#
+#
+#
+#
 #############################################################
-
 setwd(dir)
 
 d1<- read.table(paste(filename), row.names=1, header=T,sep='\t', stringsAsFactors=F)
@@ -33,8 +50,14 @@ d5[,1]<- paste("G", d5[,1], sep='')
 # generatge files for python run
 write.csv(d4, "regNet_tf.csv", row.names=T, quote=F)
 write.csv(d5, "feed2python.csv", row.names=F, quote=F)
-
-
+#
+#
+#
+#
+#
+#
+#
+#
 # part 2: coexpression with GRNBoost2
 #############################################################################
 # make python scripts
@@ -69,7 +92,7 @@ network<- read.table(file = 'ex_GRNboost2_network.tsv', sep = '\t', header = F)
 names(network)<- c("TF", "target", "importance")
 # select n% of the important links
 percentage= 5
-netGet<- network[1:round(percentage* dim(network)[1]/100), ]
+netGet<- network[1:round(GRNBoost2_importance_percentage* dim(network)[1]), ]
 netGet[,1]<- gsub('G', '', netGet[,1])
 netGet[,2]<- gsub('G', '', netGet[,2])
 ################################################################
@@ -106,17 +129,28 @@ for(i in 1:length(overlapped_tfs)){
 geneSets<- geneSets[-1]
 
 rankings <- AUCell_buildRankings(matrix, nCores=4, plotStats=TRUE)
-# decide the percenage of top importance for est AUCell
-AUCs <- AUCell_calcAUC(geneSets, rankings, aucMaxRank = ceiling(acu_percentage * nrow(rankings)), verbose = TRUE)
-
-result<- getAUC(AUCs)
-
-write.csv(result, "TCGA_patients_regulon_activity.csv", row.names=T, quote=F)
 #
+#
+# decide the percenage of top importance for est AUCell
+for(i in 1:length(AUCell_percentage)){
+    AUCs <- AUCell_calcAUC(geneSets, rankings, aucMaxRank = ceiling(AUCell_percentage[i] * nrow(rankings)), verbose = TRUE)
+    result<- getAUC(AUCs)
 
+    write.csv(result, paste("TCGA_patients_regulon_activity_AUCell_",AUCell_percentage[i], ".csv", sep=''), row.names=T, quote=F)
+}
+#
+#
+#
+#
+#
 # remove temp files
 fn <- c("GRNBoost2_co-expression.py","ex_GRNboost2_network.tsv", "feed2python.csv", "regNet_tf.csv", "dask-worker-space")
 for(i in 1: length(fn)){
     # if (file.exists(fn[i])) file.remove(fn[i], recursive = TRUE)
 	if (file.exists(fn[i])) unlink(fn[i], recursive = TRUE, force = TRUE)
 }
+#
+#
+#
+#
+#
