@@ -169,6 +169,9 @@ for(i in 1: length(fn)){
     # if (file.exists(fn[i])) file.remove(fn[i], recursive = TRUE)
 	if (file.exists(fn[i])) unlink(fn[i], recursive = TRUE, force = TRUE)
 }
-# cleaner!!
-# clear all objects
-rm(list = ls(all.names = TRUE))
+#
+#
+# clear and release memory
+rm(d1,d2,d3,d4,d5,d6,matrix1,overlapped_tfs, corrMat, cor_tfs,network, netGet,chipbase_links,cor_tfs_spearman,chipseq_tg,GRNboost2_tg,
+   cor_tfs_positive_tg,hgnc_symbol,positve_regulons, geneSets, rankings, AUCs, result)
+#
