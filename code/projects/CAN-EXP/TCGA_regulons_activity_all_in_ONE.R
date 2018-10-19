@@ -142,9 +142,12 @@ for(i in 1:length(AUCell_percentage)){
 #
 #
 #
+file.rename("ex_GRNboost2_network.tsv",  paste0("TCGA", "_GRNboost2_network.tsv", sep=''))
+#
+#
 #
 # remove temp files
-fn <- c("GRNBoost2_co-expression.py","ex_GRNboost2_network.tsv", "feed2python.csv", "regNet_tf.csv", "dask-worker-space")
+fn <- c("GRNBoost2_co-expression.py", "feed2python.csv", "regNet_tf.csv", "dask-worker-space")
 for(i in 1: length(fn)){
     # if (file.exists(fn[i])) file.remove(fn[i], recursive = TRUE)
 	if (file.exists(fn[i])) unlink(fn[i], recursive = TRUE, force = TRUE)
@@ -154,4 +157,5 @@ for(i in 1: length(fn)){
 # cleaner!!
 # clear all objects
 rm(list = ls(all.names = TRUE))
+#
 #
