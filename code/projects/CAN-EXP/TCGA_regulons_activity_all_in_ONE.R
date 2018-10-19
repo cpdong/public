@@ -128,7 +128,7 @@ for(i in 1:length(overlapped_tfs)){
 }
 geneSets<- geneSets[-1]
 
-rankings <- AUCell_buildRankings(matrix, nCores=4, plotStats=TRUE)
+rankings <- AUCell_buildRankings(matrix, nCores=4, plotStats=FALSE)
 #
 #
 # decide the percenage of top importance for est AUCell
