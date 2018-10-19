@@ -144,7 +144,7 @@ for(i in 1:length(overlapped_tfs)){
 }
 geneSets<- geneSets[-1]
 
-rankings <- AUCell_buildRankings(matrix1, nCores=4, plotStats=TRUE)
+rankings <- AUCell_buildRankings(matrix1, nCores=4, plotStats=FALSE)
 #
 #
 #
