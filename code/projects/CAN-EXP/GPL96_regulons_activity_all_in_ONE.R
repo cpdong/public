@@ -108,7 +108,7 @@ cor_tfs<- corrMat[, which(colnames(corrMat) %in% overlapped_tfs)]
 network<- read.table(file = 'ex_GRNboost2_network.tsv', sep = '\t', header = F)
 names(network)<- c("TF", "target", "importance")
 # select n% of the important links
-netGet<- network[1:round(GRNBoost2_importance_percentage* dim(network)[1]/100), ]
+netGet<- network[1:round(GRNBoost2_importance_percentage* dim(network)[1]), ]
 netGet[,1]<- gsub('G', '', netGet[,1])
 netGet[,2]<- gsub('G', '', netGet[,2])
 ################################################################
