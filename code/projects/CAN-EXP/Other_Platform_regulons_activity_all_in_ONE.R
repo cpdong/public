@@ -1,10 +1,22 @@
 # Start with a entrezgene id annotated expression matrix
 
-dir="C:\\Users\\XXX\\Downloads\\GSE86166_RAW"
+dir="/home/cpdong/Downloads/GSE86166_RAW111/"
+fileName="GSE86166.entrezgene.exprs.txt"
+#
+#
+#
+#
+#
+#
+#
+GSE_num<- regmatches(fileName, regexpr("[0-9]+", fileName))
+GSE_ID<- paste("GSE",GSE_num, sep='') 
+#
 # get the top percentage of GRNBoost2 importance 
 GRNBoost2_importance_percentage= 0.05
 # Get the AUCell calculate percentage
 AUCell_percentage=c(0.10, 0.15, 0.20, 0.25)
+#
 #
 #
 #
@@ -21,7 +33,7 @@ setwd(dir)
 #d2<- read.csv(paste("https://raw.githubusercontent.com/cpdong/public/master/data/CAN-EXP/", platform, "_ID_convert.csv", sep=''), header=T, stringsAsFactors=F)
 # d3<- cbind(d2[, "gene_symbol"][match(rownames(d1), d2[,"gene_symbol"])], d1)
 #d3<- merge(d2, d1, by.x='Gene.Symbol', by.y='row.names', all.x=T)
-d3<- read.table("GSE86166.entrezgene.exprs.txt", header=T, row.names=1, stringsAsFactors=F)
+d3<- read.table(paste(fileName), header=T, row.names=1, stringsAsFactors=F)
 
 # fileter row with 0 value as median
 medianRows<- apply(d3, 1, median)
@@ -31,7 +43,6 @@ d3<- d3[which(! medianRows== 0),]
 d4<- read.csv("https://raw.githubusercontent.com/cpdong/public/master/data/CAN-EXP/ChIPBaseV2_Factors_ENCODE_regNet_EntreGene_DongCP.csv", row.names=1, header=T, stringsAsFactors=F)
 
 d5<- d3[which(rownames(d3) %in% intersect(rownames(d4), rownames(d3))), ]
-
 d4<- d4[, which(colnames(d4) %in% (intersect(colnames(d4), paste("X",rownames(d3), sep=''))))]
 # for the next setp run AUCell analysis
 d6<- data.frame(d5)
@@ -84,6 +95,7 @@ netGet[,2]<- gsub('G', '', netGet[,2])
 library(AUCell)
 library(GSEABase)
 
+regNet_id<- read.csv("https://raw.githubusercontent.com/cpdong/public/master/data/CAN-EXP/ENCODE_Factors_ID.csv", header=T, stringsAsFactors=F)
 # d4=chipbase_net
 # make genesets list for computing
 # only left those with overlaped genes >= 20
@@ -97,7 +109,7 @@ for(i in 1:length(overlapped_tfs)){
     GRNboost2_tg<- netGet[which(netGet$TF ==paste(gsub('X', '', names(d4)[i]))),][,2]
     cor_tfs_positive_tg<- rownames(cor_tfs)[which(as.numeric(cor_tfs_spearman)>0)]
 	
-    hgnc_symbol<- as.character(d2[which(d2[,2] ==paste(gsub('X', '', names(d4)[i]))),][,1])	
+    hgnc_symbol<- as.character(regNet_id[which(regNet_id[,2] ==paste(gsub('X', '', names(d4)[i]))),][,1])	
     positve_regulons<- Reduce(intersect, list(chipseq_tg,GRNboost2_tg,cor_tfs_positive_tg))
 
     # we add TFs itself into the regulons #####################################
@@ -122,14 +134,14 @@ for(i in 1:length(AUCell_percentage)){
     AUCs <- AUCell_calcAUC(geneSets, rankings, aucMaxRank = ceiling(AUCell_percentage[i] * nrow(rankings)), verbose = TRUE)
     result<- getAUC(AUCs)
 
-    write.csv(result, paste(GSE_ID, "_", platform, "_patients_regulon_activity_", AUCell_percentage[i], ".csv", sep=''), row.names=T, quote=F)
+    write.csv(result, paste(GSE_ID, "_patients_regulon_activity_", AUCell_percentage[i], ".csv", sep=''), row.names=T, quote=F)
 }
 #
 #
 #
 #
 #
-file.rename("ex_GRNboost2_network.tsv",  paste0(GSE_ID, "_", platform, "_GRNboost2_network.tsv", sep=''))
+file.rename("ex_GRNboost2_network.tsv",  paste0(GSE_ID, "_GRNboost2_network.tsv", sep=''))
 #
 #
 # remove temp files
