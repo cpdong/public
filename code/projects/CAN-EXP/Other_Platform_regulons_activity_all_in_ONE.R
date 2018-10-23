@@ -1,7 +1,7 @@
 # Start with a entrezgene id annotated expression matrix
 
-dir="/home/cpdong/Downloads/GSE86166_RAW111/"
-fileName="GSE86166.entrezgene.exprs.txt"
+# dir="/home/cpdong/Downloads/GSE86166_RAW111/"
+# fileName="GSE86166.entrezgene.exprs.txt"
 #
 #
 #
