@@ -1,3 +1,4 @@
+# only for Acute Myeloid Leukemia
 # Give at least two transcription factor names
 tf_names=['STAT3', 'STAT2']
 
