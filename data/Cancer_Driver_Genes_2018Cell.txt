@@ -1,4 +1,3 @@
-Gene
 ABL1
 ACVR1
 ACVR1B
