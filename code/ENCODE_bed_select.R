@@ -19,11 +19,11 @@ audit_status<- function(fileURL){
     node_content<- xpathSApply(doc, "//script",xmlValue)[3]
 
     # Extract the substrings: https://stackoverflow.com/questions/39086400/extracting-a-string-between-other-two-strings-in-r
-    stings1<- str_match(as.character(node_content), "biological_replicates(.*?)assembly")[,2]
+    strings1<- str_match(as.character(node_content), "biological_replicates(.*?)assembly")[,2]
     bio_rep<- str_extract_all(strings1,"\\(?[0-9,.]+\\)?")[[1]][1]
 
     # Extract the Assembly information hg38 or hg19
-    stings2<- str_match(as.character(node_content), "assembly(.*?)file_type")[,2]
+    strings2<- str_match(as.character(node_content), "assembly(.*?)file_type")[,2]
     assembly<- str_extract_all(strings2,"\\(?[0-9,.]+\\)?")[[1]][1]
 	
     return(bio_rep,assembly)
