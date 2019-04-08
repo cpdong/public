@@ -26,7 +26,7 @@ audit_status<- function(fileURL){
     strings2<- str_match(as.character(node_content), "assembly(.*?)file_type")[,2]
     assembly<- str_extract_all(strings2,"\\(?[0-9,.]+\\)?")[[1]][1]
 	
-    return(bio_rep,assembly)
+    return(c(bio_rep,assembly))
 }
 ########################################################
 # Function END
