@@ -4,7 +4,7 @@
 
 audit_status<- function(fileURL){
 
-    # Get download link from http links
+    # Get biological replication of that files, we hope to get those with 1 and 2 of hg19
     ####################################################
     library(stringr)
     library(rvest)
