@@ -16,7 +16,7 @@ audit_status<- function(fileURL){
     nodess<- getNodeSet(doc, "//script")
 
     # Get NODE content with XML
-    node_content<- xpathSApply(context,"//script",xmlValue)[3]
+    node_content<- xpathSApply(doc,"//script",xmlValue)[3]
 
     # Extract the substrings: https://stackoverflow.com/questions/39086400/extracting-a-string-between-other-two-strings-in-r
     stings1<- str_match(as.character(node_content), "biological_replicates(.*?)assembly")[,2]
