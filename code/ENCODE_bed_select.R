@@ -1,3 +1,10 @@
+# dir=''
+# filename=''
+#
+#
+#
+setwd(paste(dir))
+df<- read.table(paste(filename), header=T, stringsAsFactors=F)
 ########################################################
 # R function
 # Donwload online data that hidden in the html source
@@ -30,3 +37,27 @@ audit_status<- function(fileURL){
 }
 ########################################################
 # Function END
+#
+#
+# 
+# invoke the definded function of ENCODE html
+# source("https://raw.githubusercontent.com/cpdong/public/master/code/ENCODE_bed_select.R")
+# df<- read.table("files.txt", header=T, stringsAsFactors=F)
+
+auditStatus<- c(NA)
+assemblyBy<- c(NA)
+for(i in 1:dim(df)[1]){
+    links<- substr(df[i,1], 0, 48)
+    getlinks<- audit_status(links)
+
+    auditStatus[i]<- getlinks[1]
+    assemblyBy[i]<- getlinks[2]
+
+    print(i)
+}
+
+df$auditStatus<- auditStatus
+df$assemblyBy<- assemblyBy
+
+write.csv(df, "test.csv", row.names=F, quote=F)
+#
