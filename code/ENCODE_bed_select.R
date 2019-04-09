@@ -1,5 +1,5 @@
 # dir=''
-# filena=''
+# filename=''
 #
 #
 #
