@@ -62,6 +62,7 @@ df<- read.table(paste(filename), header=T, stringsAsFactors=F)
 auditStatus<- c(NA)
 assemblyBy<- c(NA)
 fileName<- c(NA)
+targetName<- c(NA)
 for(i in 1:dim(df)[1]){
     links<- substr(df[i,1], 0, 48)
     getlinks<- extract_ENCODE(links)
@@ -69,13 +70,15 @@ for(i in 1:dim(df)[1]){
     auditStatus[i]<- getlinks[1]
     assemblyBy[i]<- getlinks[2]
     fileName[i]<- getlinks[3]
-
+    targetName[i]<- getlins[4]
+    
     print(i)
 }
 
 df$auditStatus<- auditStatus
 df$assemblyBy<- assemblyBy
 df$fileName<- fileName
+df$targetName<- targetName
 
 # audit_status megre, assembly genome
 df1<- df[which((df[,2] =='1,2') & (df[,3] !='GRCh38')),]
