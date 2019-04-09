@@ -76,5 +76,5 @@ df$auditStatus<- auditStatus
 df$assemblyBy<- assemblyBy
 df$fileName<- fileName
 
-write.csv(df, "test.csv", row.names=F, quote=F)
+write.table(df, "test.txt", row.names=F, quote=F, sep='\t')
 #
