@@ -42,7 +42,8 @@ extract_ENCODE<- function(fileURL){
     submitted_file<- sub('.gz.*','',strings3)
     
     # Extract the target/RBP/TFs names
-    page <- read_html(paste(fileURL))
+    searchURL<- paste("https://www.encodeproject.org/search/?searchTerm=", substr(fileURL, 37, 47), sep='')
+    page <- read_html(paste(searchURL))
     # find all nodes with a class of "data-row"
     lists <- html_nodes(page, css = '.data-row')
     strings4<- html_text(lists)
