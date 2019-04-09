@@ -38,7 +38,7 @@ extract_ENCODE<- function(fileURL){
 
     # Extract the submitted file names
     strings3<- sub('.*submitted_file_name', '', node_content)
-    strings3<- substr(strings2, 3, 200)
+    strings3<- substr(strings3, 3, 200)
     submitted_file<- sub('.gz.*','',strings3)
     
     # if we use another approaches
