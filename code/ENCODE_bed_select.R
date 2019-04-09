@@ -1,5 +1,5 @@
-# dir=''
-# filename=''
+# dir='/home/cpdong/Downloads/'
+# filename='files.txt'
 #
 #
 #
