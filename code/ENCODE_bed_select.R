@@ -86,3 +86,5 @@ df1<- df[which((df[,2] =='1,2') & (df[,3] !='GRCh38')),]
 
 write.table(df1, "test.txt", row.names=F, quote=F, sep='\t')
 #
+df2<- df[,1]
+write.table(df2, file="files_curated_download_list.txt", row.names=F,quote=F)
