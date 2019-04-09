@@ -76,5 +76,8 @@ df$auditStatus<- auditStatus
 df$assemblyBy<- assemblyBy
 df$fileName<- fileName
 
-write.table(df, "test.txt", row.names=F, quote=F, sep='\t')
+# audit_status megre, assembly genome
+df1<- df[which((df[,2] =='1,2') & (df[,3] !='GRCh38')),]
+
+write.table(df1, "test.txt", row.names=F, quote=F, sep='\t')
 #
