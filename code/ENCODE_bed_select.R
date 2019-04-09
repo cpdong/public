@@ -70,7 +70,7 @@ for(i in 1:dim(df)[1]){
     auditStatus[i]<- getlinks[1]
     assemblyBy[i]<- getlinks[2]
     fileName[i]<- getlinks[3]
-    targetName[i]<- getlins[4]
+    targetName[i]<- getlinks[4]
     
     print(i)
 }
