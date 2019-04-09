@@ -1,5 +1,5 @@
 # dir=''
-# filename=''
+# filena=''
 #
 #
 #
@@ -41,13 +41,14 @@ extract_ENCODE<- function(fileURL){
     strings3<- substr(strings3, 3, 200)
     submitted_file<- sub('.gz.*','',strings3)
     
-    # if we use another approaches
-    # page <- read_html(paste(fileURL))
-    # find all nodes with a class of "listing_row_price"
-    # lists <- html_nodes(page, css = '.sequence')
-    # submitted_file<- html_text(lists[2])
+    # Extract the target/RBP/TFs names
+    page <- read_html(paste(fileURL))
+    # find all nodes with a class of "data-row"
+    lists <- html_nodes(page, css = '.data-row')
+    strings4<- html_text(lists)
+    targets<- str_match(as.character(strings4), "Target: (.*?)Lab")[,2]
 
-    return(c(bio_rep,assembly,submitted_file))
+    return(c(bio_rep,assembly,submitted_file, targets))
 }
 ########################################################
 # Function END
