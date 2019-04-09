@@ -36,11 +36,16 @@ extract_ENCODE<- function(fileURL){
     strings2<- sub('.*assembly', '', node_content)
     assembly<- substr(strings2, 4, 9)
 
-    # Extract the submitted file name
-    page <- read_html(paste(fileURL))
+    # Extract the submitted file names
+    strings3<- sub('.*submitted_file_name', '', node_content)
+    strings3<- substr(strings2, 3, 200)
+    submitted_file<- sub('.gz.*','',strings3)
+    
+    # if we use another approaches
+    # page <- read_html(paste(fileURL))
     # find all nodes with a class of "listing_row_price"
-    lists <- html_nodes(page, css = '.sequence')
-    submitted_file<- html_text(lists[2])
+    # lists <- html_nodes(page, css = '.sequence')
+    # submitted_file<- html_text(lists[2])
 
     return(c(bio_rep,assembly,submitted_file))
 }
