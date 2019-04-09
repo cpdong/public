@@ -10,7 +10,7 @@ setwd(paste(dir))
 # R function
 # Donwload online data that hidden in the html source
 
-audit_status<- function(fileURL){
+extract_ENCODE<- function(fileURL){
 
     # Get download link from http links
     ####################################################
@@ -35,8 +35,14 @@ audit_status<- function(fileURL){
     # strings2<- str_match(as.character(node_content), "assembly(.*?)file_type")[,2]
     strings2<- sub('.*assembly', '', node_content)
     assembly<- substr(strings2, 4, 9)
-	
-    return(c(bio_rep,assembly))
+
+    # Extract the submitted file name
+    page <- read_html(paste(fileURL))
+    # find all nodes with a class of "listing_row_price"
+    lists <- html_nodes(page, css = '.sequence')
+    submitted_file<- html_text(lists[2])
+
+    return(c(bio_rep,assembly,submitted_file))
 }
 ########################################################
 # Function END
@@ -49,18 +55,21 @@ df<- read.table(paste(filename), header=T, stringsAsFactors=F)
 
 auditStatus<- c(NA)
 assemblyBy<- c(NA)
+fileName<- c(NA)
 for(i in 1:dim(df)[1]){
     links<- substr(df[i,1], 0, 48)
-    getlinks<- audit_status(links)
+    getlinks<- extract_ENCODE(links)
 
     auditStatus[i]<- getlinks[1]
     assemblyBy[i]<- getlinks[2]
+    fileName[i]<- getlinks[3]
 
     print(i)
 }
 
 df$auditStatus<- auditStatus
 df$assemblyBy<- assemblyBy
+df$fileName<- fileName
 
 write.csv(df, "test.csv", row.names=F, quote=F)
 #
