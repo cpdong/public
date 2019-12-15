@@ -23,7 +23,7 @@ recoverAUC<- function (rank_file, rank_order, geneSet, cutoff){
 	}
 	#
 	rank_temp<- ranks[which(ranks$gene %in% geneSet),]
-	rank_auc_data<- ranks[which(ranks$rank <= cutoff),]
+	rank_auc_data<- rank_temp[which(rank_temp$rank <= cutoff),]
 	normalized_value<- length(geneSet)*dim(ranks)[1]
 	#
 	recoverAUC<- (cutoff*dim(rank_auc_data)[1] - sum(rank_auc_data$rank))/normalized_value
