@@ -6,7 +6,7 @@
 # cutoff should be integer or percentage of all gene
 
 recoverAUC<- function (rank_file, rank_order, geneSet, cutoff){
-	if(rank_order=="increase|+"){
+	if(rank_order=="increase" |rank_order=="+"){
 		ranks<- rank_file[order(rank_file[,2], decreasing =FALSE), ]
 		ranks[,3]<- c(1:dim(ranks)[1])
 		colnames(ranks)<- c("gene", "foldChange", "rank")
