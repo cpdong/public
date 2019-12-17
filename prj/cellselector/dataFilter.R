@@ -12,7 +12,7 @@ dataFilter<- function(genomeMatrix, cutoff){
 	# remove gene with too much same value
 	maxSameValue<- apply(genomeMatrix, 1, function(x) max(as.numeric(table(as.numeric(x)))))
 	#
-	genomeMatrix<- genomeMatrix[!which(maxSameValue >= round(dim(genomeMatrix)[2]*cutoff)),]
+	genomeMatrix<- genomeMatrix[-which(as.numeric(maxSameValue) >= round(dim(genomeMatrix)[2]*cutoff)),]
 	return(genomeMatrix)
 }
 #
