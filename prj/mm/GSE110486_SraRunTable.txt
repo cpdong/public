@@ -1,0 +1,18 @@
+Run	disease_stage	Sample_Name	pts_id
+SRR6710116	Normal	GSM2992251	patient sample HV1
+SRR6710117	Normal	GSM2992252	patient sample HV2
+SRR6710118	Normal	GSM2992253	patient sample HV3
+SRR6710119	Normal	GSM2992254	patient sample HV6
+SRR6710120	Normal	GSM2992255	patient sample HV7
+SRR6710121	Pre-malignant	GSM2992256	patient sample MGUS-023
+SRR6710122	Pre-malignant	GSM2992257	patient sample MGUS-052
+SRR6710123	Malignant	GSM2992258	patient sample ND-024
+SRR6710124	Malignant	GSM2992259	patient sample ND-049
+SRR6710125	Malignant	GSM2992260	patient sample ND-051
+SRR6710126	Malignant	GSM2992261	patient sample ND-079
+SRR6710127	Malignant	GSM2992262	patient sample ND-177
+SRR6710128	Malignant	GSM2992263	patient sample R-094
+SRR6710129	Malignant	GSM2992264	patient sample R-106
+SRR6710130	Malignant	GSM2992265	patient sample R-134
+SRR6710131	Malignant	GSM2992266	patient sample R-146
+SRR6710132	Malignant	GSM2992267	patient sample R-196
