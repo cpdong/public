@@ -1,1 +1,1 @@
-For storage the gencode annotation version gene ID information table!
+The archive of the gencode annotation version gene ID information.
