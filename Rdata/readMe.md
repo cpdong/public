@@ -1,1 +1,1 @@
-This folder for storaging demo file and figures for plotting codes.
+This folder for storing demo file and figures for plotting codes.
