@@ -1,0 +1,221 @@
+GO,ENTREZID,ONTOLOGY,SYMBOL,Terms
+hsa03040,100534599,KEGG,ISY1-RAB43,Spliceosome
+hsa03040,10084,KEGG,PQBP1,Spliceosome
+hsa03040,10189,KEGG,ALYREF,Spliceosome
+hsa03040,101954264,KEGG,RNVU1-4,Spliceosome
+hsa03040,101954268,KEGG,RNVU1-20,Spliceosome
+hsa03040,101954271,KEGG,RNU6-9,Spliceosome
+hsa03040,101954273,KEGG,RNVU1-1,Spliceosome
+hsa03040,10262,KEGG,SF3B4,Spliceosome
+hsa03040,102724594,KEGG,U2AF1L5,Spliceosome
+hsa03040,10285,KEGG,SMNDC1,Spliceosome
+hsa03040,10286,KEGG,BCAS2,Spliceosome
+hsa03040,10291,KEGG,SF3A1,Spliceosome
+hsa03040,10450,KEGG,PPIE,Spliceosome
+hsa03040,10465,KEGG,PPIH,Spliceosome
+hsa03040,10523,KEGG,CHERP,Spliceosome
+hsa03040,10569,KEGG,SLU7,Spliceosome
+hsa03040,10594,KEGG,PRPF8,Spliceosome
+hsa03040,10713,KEGG,USP39,Spliceosome
+hsa03040,10772,KEGG,SRSF10,Spliceosome
+hsa03040,10907,KEGG,TXNL4A,Spliceosome
+hsa03040,10915,KEGG,TCERG1,Spliceosome
+hsa03040,10929,KEGG,SRSF8,Spliceosome
+hsa03040,10946,KEGG,SF3A3,Spliceosome
+hsa03040,10992,KEGG,SF3B2,Spliceosome
+hsa03040,11017,KEGG,SNRNP27,Spliceosome
+hsa03040,11157,KEGG,LSM6,Spliceosome
+hsa03040,11325,KEGG,DDX42,Spliceosome
+hsa03040,11338,KEGG,U2AF2,Spliceosome
+hsa03040,139804,KEGG,RBMXL3,Spliceosome
+hsa03040,144983,KEGG,HNRNPA1L2,Spliceosome
+hsa03040,151903,KEGG,CCDC12,Spliceosome
+hsa03040,153527,KEGG,ZMAT2,Spliceosome
+hsa03040,1655,KEGG,DDX5,Spliceosome
+hsa03040,1659,KEGG,DHX8,Spliceosome
+hsa03040,1665,KEGG,DHX15,Spliceosome
+hsa03040,199746,KEGG,U2AF1L4,Spliceosome
+hsa03040,220988,KEGG,HNRNPA3,Spliceosome
+hsa03040,22827,KEGG,PUF60,Spliceosome
+hsa03040,22916,KEGG,NCBP2,Spliceosome
+hsa03040,22938,KEGG,SNW1,Spliceosome
+hsa03040,22985,KEGG,ACIN1,Spliceosome
+hsa03040,23020,KEGG,SNRNP200,Spliceosome
+hsa03040,23350,KEGG,U2SURP,Spliceosome
+hsa03040,23450,KEGG,SF3B3,Spliceosome
+hsa03040,23451,KEGG,SF3B1,Spliceosome
+hsa03040,23658,KEGG,LSM5,Spliceosome
+hsa03040,24148,KEGG,PRPF6,Spliceosome
+hsa03040,2521,KEGG,FUS,Spliceosome
+hsa03040,25766,KEGG,PRPF40B,Spliceosome
+hsa03040,25804,KEGG,LSM4,Spliceosome
+hsa03040,25949,KEGG,SYF2,Spliceosome
+hsa03040,26121,KEGG,PRPF31,Spliceosome
+hsa03040,26827,KEGG,RNU6-1,Spliceosome
+hsa03040,26831,KEGG,RNU5A-1,Spliceosome
+hsa03040,26834,KEGG,RNU4-2,Spliceosome
+hsa03040,26835,KEGG,RNU4-1,Spliceosome
+hsa03040,26863,KEGG,RNVU1-18,Spliceosome
+hsa03040,26864,KEGG,RNVU1-7,Spliceosome
+hsa03040,26869,KEGG,RNU1-3,Spliceosome
+hsa03040,26870,KEGG,RNU1-2,Spliceosome
+hsa03040,26871,KEGG,RNU1-1,Spliceosome
+hsa03040,27258,KEGG,LSM3,Spliceosome
+hsa03040,27288,KEGG,RBMXL2,Spliceosome
+hsa03040,27316,KEGG,RBMX,Spliceosome
+hsa03040,27339,KEGG,PRPF19,Spliceosome
+hsa03040,29896,KEGG,TRA2A,Spliceosome
+hsa03040,3178,KEGG,HNRNPA1,Spliceosome
+hsa03040,3183,KEGG,HNRNPC,Spliceosome
+hsa03040,3190,KEGG,HNRNPK,Spliceosome
+hsa03040,3192,KEGG,HNRNPU,Spliceosome
+hsa03040,3303,KEGG,HSPA1A,Spliceosome
+hsa03040,3304,KEGG,HSPA1B,Spliceosome
+hsa03040,3305,KEGG,HSPA1L,Spliceosome
+hsa03040,3306,KEGG,HSPA2,Spliceosome
+hsa03040,3310,KEGG,HSPA6,Spliceosome
+hsa03040,3312,KEGG,HSPA8,Spliceosome
+hsa03040,392517,KEGG,NCBP2L,Spliceosome
+hsa03040,4116,KEGG,MAGOH,Spliceosome
+hsa03040,4670,KEGG,HNRNPM,Spliceosome
+hsa03040,4686,KEGG,NCBP1,Spliceosome
+hsa03040,4809,KEGG,SNU13,Spliceosome
+hsa03040,494115,KEGG,RBMXL1,Spliceosome
+hsa03040,5093,KEGG,PCBP1,Spliceosome
+hsa03040,51340,KEGG,CRNKL1,Spliceosome
+hsa03040,51362,KEGG,CDC40,Spliceosome
+hsa03040,51503,KEGG,CWC15,Spliceosome
+hsa03040,51639,KEGG,SF3B6,Spliceosome
+hsa03040,51645,KEGG,PPIL1,Spliceosome
+hsa03040,51690,KEGG,LSM7,Spliceosome
+hsa03040,51691,KEGG,LSM8,Spliceosome
+hsa03040,51729,KEGG,WBP11,Spliceosome
+hsa03040,5356,KEGG,PLRG1,Spliceosome
+hsa03040,55110,KEGG,MAGOHB,Spliceosome
+hsa03040,55119,KEGG,PRPF38B,Spliceosome
+hsa03040,55660,KEGG,PRPF40A,Spliceosome
+hsa03040,55696,KEGG,RBM22,Spliceosome
+hsa03040,56259,KEGG,CTNNBL1,Spliceosome
+hsa03040,56949,KEGG,XAB2,Spliceosome
+hsa03040,57187,KEGG,THOC2,Spliceosome
+hsa03040,57461,KEGG,ISY1,Spliceosome
+hsa03040,57819,KEGG,LSM2,Spliceosome
+hsa03040,58517,KEGG,RBM25,Spliceosome
+hsa03040,6060,KEGG,RNU1-4,Spliceosome
+hsa03040,6066,KEGG,RNU2-1,Spliceosome
+hsa03040,6100,KEGG,RP9,Spliceosome
+hsa03040,6426,KEGG,SRSF1,Spliceosome
+hsa03040,6427,KEGG,SRSF2,Spliceosome
+hsa03040,6428,KEGG,SRSF3,Spliceosome
+hsa03040,6429,KEGG,SRSF4,Spliceosome
+hsa03040,6430,KEGG,SRSF5,Spliceosome
+hsa03040,6431,KEGG,SRSF6,Spliceosome
+hsa03040,6432,KEGG,SRSF7,Spliceosome
+hsa03040,6434,KEGG,TRA2B,Spliceosome
+hsa03040,6625,KEGG,SNRNP70,Spliceosome
+hsa03040,6626,KEGG,SNRPA,Spliceosome
+hsa03040,6627,KEGG,SNRPA1,Spliceosome
+hsa03040,6628,KEGG,SNRPB,Spliceosome
+hsa03040,6629,KEGG,SNRPB2,Spliceosome
+hsa03040,6631,KEGG,SNRPC,Spliceosome
+hsa03040,6632,KEGG,SNRPD1,Spliceosome
+hsa03040,6633,KEGG,SNRPD2,Spliceosome
+hsa03040,6634,KEGG,SNRPD3,Spliceosome
+hsa03040,6635,KEGG,SNRPE,Spliceosome
+hsa03040,6636,KEGG,SNRPF,Spliceosome
+hsa03040,6637,KEGG,SNRPG,Spliceosome
+hsa03040,7307,KEGG,U2AF1,Spliceosome
+hsa03040,7919,KEGG,DDX39B,Spliceosome
+hsa03040,8175,KEGG,SF3A2,Spliceosome
+hsa03040,83443,KEGG,SF3B5,Spliceosome
+hsa03040,84321,KEGG,THOC3,Spliceosome
+hsa03040,8449,KEGG,DHX16,Spliceosome
+hsa03040,84844,KEGG,PHF5A,Spliceosome
+hsa03040,84950,KEGG,PRPF38A,Spliceosome
+hsa03040,84991,KEGG,RBM17,Spliceosome
+hsa03040,8559,KEGG,PRPF18,Spliceosome
+hsa03040,8683,KEGG,SRSF9,Spliceosome
+hsa03040,8896,KEGG,BUD31,Spliceosome
+hsa03040,9092,KEGG,SART1,Spliceosome
+hsa03040,9128,KEGG,PRPF4,Spliceosome
+hsa03040,9129,KEGG,PRPF3,Spliceosome
+hsa03040,9343,KEGG,EFTUD2,Spliceosome
+hsa03040,9410,KEGG,SNRNP40,Spliceosome
+hsa03040,9416,KEGG,DDX23,Spliceosome
+hsa03040,9716,KEGG,AQR,Spliceosome
+hsa03040,9775,KEGG,EIF4A3,Spliceosome
+hsa03040,9785,KEGG,DHX38,Spliceosome
+hsa03040,9879,KEGG,DDX46,Spliceosome
+hsa03040,988,KEGG,CDC5L,Spliceosome
+hsa03040,9939,KEGG,RBM8A,Spliceosome
+hsa03040,9984,KEGG,THOC1,Spliceosome
+GO:0003725,192669,MF,AGO3,double-stranded RNA binding
+GO:0003725,3326,MF,HSP90AB1,double-stranded RNA binding
+GO:0003725,103,MF,ADAR,double-stranded RNA binding
+GO:0003725,23405,MF,DICER1,double-stranded RNA binding
+GO:0003725,6895,MF,TARBP2,double-stranded RNA binding
+GO:0003725,56919,MF,DHX33,double-stranded RNA binding
+GO:0003725,54542,MF,RC3H2,double-stranded RNA binding
+GO:0003725,23586,MF,DDX58,double-stranded RNA binding
+GO:0003725,54920,MF,DUS2,double-stranded RNA binding
+GO:0003725,1653,MF,DDX1,double-stranded RNA binding
+GO:0003725,4938,MF,OAS1,double-stranded RNA binding
+GO:0003725,1665,MF,DHX15,double-stranded RNA binding
+GO:0003725,51663,MF,ZFR,double-stranded RNA binding
+GO:0003725,4622,MF,MYH4,double-stranded RNA binding
+GO:0003725,27161,MF,AGO2,double-stranded RNA binding
+GO:0003725,51284,MF,TLR7,double-stranded RNA binding
+GO:0003725,79706,MF,PRKRIP1,double-stranded RNA binding
+GO:0003725,5610,MF,EIF2AK2,double-stranded RNA binding
+GO:0003725,92140,MF,MTDH,double-stranded RNA binding
+GO:0003725,23180,MF,RFTN1,double-stranded RNA binding
+GO:0003725,64135,MF,IFIH1,double-stranded RNA binding
+GO:0003725,1973,MF,EIF4A1,double-stranded RNA binding
+GO:0003725,192670,MF,AGO4,double-stranded RNA binding
+GO:0003725,4940,MF,OAS3,double-stranded RNA binding
+GO:0003725,54840,MF,APTX,double-stranded RNA binding
+GO:0003725,79132,MF,DHX58,double-stranded RNA binding
+GO:0003725,1994,MF,ELAVL1,double-stranded RNA binding
+GO:0003725,7098,MF,TLR3,double-stranded RNA binding
+GO:0003725,54487,MF,DGCR8,double-stranded RNA binding
+GO:0003725,26065,MF,LSM14A,double-stranded RNA binding
+GO:0003725,79693,MF,YRDC,double-stranded RNA binding
+GO:0003725,4939,MF,OAS2,double-stranded RNA binding
+GO:0003725,104,MF,ADARB1,double-stranded RNA binding
+GO:0003725,9208,MF,LRRFIP1,double-stranded RNA binding
+GO:0003725,1660,MF,DHX9,double-stranded RNA binding
+GO:0003725,23567,MF,ZNF346,double-stranded RNA binding
+GO:0003725,105,MF,ADARB2,double-stranded RNA binding
+GO:0003725,51092,MF,SIDT2,double-stranded RNA binding
+GO:0003725,1213,MF,CLTC,double-stranded RNA binding
+GO:0003725,3609,MF,ILF3,double-stranded RNA binding
+GO:0003725,4154,MF,MBNL1,double-stranded RNA binding
+GO:0003725,3192,MF,HNRNPU,double-stranded RNA binding
+GO:0003725,26523,MF,AGO1,double-stranded RNA binding
+GO:0003725,3608,MF,ILF2,double-stranded RNA binding
+GO:0003725,54847,MF,SIDT1,double-stranded RNA binding
+GO:0003725,22907,MF,DHX30,double-stranded RNA binding
+GO:0003725,8638,MF,OASL,double-stranded RNA binding
+GO:0003725,6832,MF,SUPV3L1,double-stranded RNA binding
+GO:0003725,161931,MF,ADAD2,double-stranded RNA binding
+GO:0003725,55601,MF,DDX60,double-stranded RNA binding
+GO:0003725,9188,MF,DDX21,double-stranded RNA binding
+GO:0003725,8575,MF,PRKRA,double-stranded RNA binding
+GO:0003725,51311,MF,TLR8,double-stranded RNA binding
+GO:0003725,10376,MF,TUBA1B,double-stranded RNA binding
+GO:0003725,27067,MF,STAU2,double-stranded RNA binding
+GO:0003725,6780,MF,STAU1,double-stranded RNA binding
+GO:0003725,7431,MF,VIM,double-stranded RNA binding
+GO:0003725,65080,MF,MRPL44,double-stranded RNA binding
+GO:0003725,170506,MF,DHX36,double-stranded RNA binding
+GO:0003725,3329,MF,HSPD1,double-stranded RNA binding
+GO:0003725,6520,MF,SLC3A2,double-stranded RNA binding
+GO:0003725,10383,MF,TUBB4B,double-stranded RNA binding
+GO:0003725,4478,MF,MSN,double-stranded RNA binding
+GO:0003725,23217,MF,ZFR2,double-stranded RNA binding
+GO:0003725,87,MF,ACTN1,double-stranded RNA binding
+GO:0003725,149041,MF,RC3H1,double-stranded RNA binding
+GO:0003725,55342,MF,STRBP,double-stranded RNA binding
+GO:0003725,29102,MF,DROSHA,double-stranded RNA binding
+GO:0003725,132612,MF,ADAD1,double-stranded RNA binding
+GO:0003725,7037,MF,TFRC,double-stranded RNA binding
