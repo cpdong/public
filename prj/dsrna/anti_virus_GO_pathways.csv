@@ -1,0 +1,351 @@
+GO,ENTREZID,ONTOLOGY,SYMBOL,Terms
+GO:0009615,602,BP,BCL3,response to virus
+GO:0009615,10410,BP,IFITM3,response to virus
+GO:0009615,8815,BP,BANF1,response to virus
+GO:0009615,103,BP,ADAR,response to virus
+GO:0009615,7178,BP,TPT1,response to virus
+GO:0009615,3433,BP,IFIT2,response to virus
+GO:0009615,3441,BP,IFNA4,response to virus
+GO:0009615,10859,BP,LILRB1,response to virus
+GO:0009615,10581,BP,IFITM2,response to virus
+GO:0009615,7124,BP,TNF,response to virus
+GO:0009615,1937,BP,EEF1G,response to virus
+GO:0009615,1174,BP,AP1S1,response to virus
+GO:0009615,23586,BP,DDX58,response to virus
+GO:0009615,3467,BP,IFNW1,response to virus
+GO:0009615,55601,BP,DDX60,response to virus
+GO:0009615,8061,BP,FOSL1,response to virus
+GO:0009615,6355,BP,CCL8,response to virus
+GO:0009615,3433,BP,IFIT2,response to virus
+GO:0009615,81576,BP,CCDC130,response to virus
+GO:0009615,684,BP,BST2,response to virus
+GO:0009615,2962,BP,GTF2F1,response to virus
+GO:0009615,1543,BP,CYP1A1,response to virus
+GO:0009615,6714,BP,SRC,response to virus
+GO:0009615,8725,BP,URI1,response to virus
+GO:0009615,91543,BP,RSAD2,response to virus
+GO:0009615,4600,BP,MX2,response to virus
+GO:0009615,6356,BP,CCL11,response to virus
+GO:0009615,7852,BP,CXCR4,response to virus
+GO:0009615,2268,BP,FGR,response to virus
+GO:0009615,3460,BP,IFNGR2,response to virus
+GO:0009615,5683,BP,PSMA2,response to virus
+GO:0009615,3434,BP,IFIT1,response to virus
+GO:0009615,9201,BP,DCLK1,response to virus
+GO:0009615,3458,BP,IFNG,response to virus
+GO:0009615,10561,BP,IFI44,response to virus
+GO:0009615,3665,BP,IRF7,response to virus
+GO:0009615,29110,BP,TBK1,response to virus
+GO:0009615,8575,BP,PRKRA,response to virus
+GO:0009615,6351,BP,CCL4,response to virus
+GO:0009615,1147,BP,CHUK,response to virus
+GO:0009615,1654,BP,DDX3X,response to virus
+GO:0009615,11040,BP,PIM2,response to virus
+GO:0009615,30009,BP,TBX21,response to virus
+GO:0009615,4599,BP,MX1,response to virus
+GO:0009615,50506,BP,DUOX2,response to virus
+GO:0009615,3669,BP,ISG20,response to virus
+GO:0009615,3437,BP,IFIT3,response to virus
+GO:0009615,10542,BP,LAMTOR5,response to virus
+GO:0009615,3444,BP,IFNA7,response to virus
+GO:0009615,10577,BP,NPC2,response to virus
+GO:0009615,3454,BP,IFNAR1,response to virus
+GO:0009615,338,BP,APOB,response to virus
+GO:0009615,3373,BP,HYAL1,response to virus
+GO:0009615,8638,BP,OASL,response to virus
+GO:0009615,3925,BP,STMN1,response to virus
+GO:0009615,11213,BP,IRAK3,response to virus
+GO:0009615,3456,BP,IFNB1,response to virus
+GO:0009615,2023,BP,ENO1,response to virus
+GO:0009615,50943,BP,FOXP3,response to virus
+GO:0009615,3315,BP,HSPB1,response to virus
+GO:0009615,4940,BP,OAS3,response to virus
+GO:0009615,3934,BP,LCN2,response to virus
+GO:0009615,388419,BP,BTBD17,response to virus
+GO:0009615,6352,BP,CCL5,response to virus
+GO:0009615,8519,BP,IFITM1,response to virus
+GO:0009615,10625,BP,IVNS1ABP,response to virus
+GO:0009615,2625,BP,GATA3,response to virus
+GO:0009615,1072,BP,CFL1,response to virus
+GO:0009615,4953,BP,ODC1,response to virus
+GO:0009615,4938,BP,OAS1,response to virus
+GO:0009615,3551,BP,IKBKB,response to virus
+GO:0009615,58487,BP,CREBZF,response to virus
+GO:0009615,56832,BP,IFNK,response to virus
+GO:0009615,3434,BP,IFIT1,response to virus
+GO:0009615,8517,BP,IKBKG,response to virus
+GO:0009615,4486,BP,MST1R,response to virus
+GO:0009615,56829,BP,ZC3HAV1,response to virus
+GO:0009615,8692,BP,HYAL2,response to virus
+GO:0009615,5610,BP,EIF2AK2,response to virus
+GO:0009615,10346,BP,TRIM22,response to virus
+GO:0009615,59,BP,ACTA2,response to virus
+GO:0009615,3159,BP,HMGA1,response to virus
+GO:0009615,1129,BP,CHRM2,response to virus
+GO:0009615,7292,BP,TNFSF4,response to virus
+GO:0009615,6375,BP,XCL1,response to virus
+GO:0009615,3592,BP,IL12A,response to virus
+GO:0009615,8091,BP,HMGA2,response to virus
+GO:0009615,79132,BP,DHX58,response to virus
+GO:0009615,3451,BP,IFNA17,response to virus
+GO:0009615,6367,BP,CCL22,response to virus
+GO:0009615,8372,BP,HYAL3,response to virus
+GO:0009615,51311,BP,TLR8,response to virus
+GO:0009615,3455,BP,IFNAR2,response to virus
+GO:0009615,55509,BP,BATF3,response to virus
+GO:0009615,6387,BP,CXCL12,response to virus
+GO:0009615,64135,BP,IFIH1,response to virus
+GO:0009615,11100,BP,HNRNPUL1,response to virus
+GO:0009615,1191,BP,CLU,response to virus
+GO:0009615,1021,BP,CDK6,response to virus
+GO:0009615,3459,BP,IFNGR1,response to virus
+GO:0009615,4939,BP,OAS2,response to virus
+GO:0009615,22948,BP,CCT5,response to virus
+GO:0009615,6363,BP,CCL19,response to virus
+GO:0009615,6210,BP,RPS15A,response to virus
+GO:0009615,9213,BP,XPR1,response to virus
+GO:0051607,440275,BP,EIF2AK4,defense response to virus
+GO:0051607,83737,BP,ITCH,defense response to virus
+GO:0051607,51251,BP,NT5C3A,defense response to virus
+GO:0051607,3428,BP,IFI16,defense response to virus
+GO:0051607,56829,BP,ZC3HAV1,defense response to virus
+GO:0051607,282617,BP,IFNL3,defense response to virus
+GO:0051607,665,BP,BNIP3L,defense response to virus
+GO:0051607,55601,BP,DDX60,defense response to virus
+GO:0051607,55703,BP,POLR3B,defense response to virus
+GO:0051607,6041,BP,RNASEL,defense response to virus
+GO:0051607,170506,BP,DHX36,defense response to virus
+GO:0051607,10623,BP,POLR3C,defense response to virus
+GO:0051607,3448,BP,IFNA14,defense response to virus
+GO:0051607,25939,BP,SAMHD1,defense response to virus
+GO:0051607,684,BP,BST2,defense response to virus
+GO:0051607,282617,BP,IFNL3,defense response to virus
+GO:0051607,27297,BP,CRCP,defense response to virus
+GO:0051607,10859,BP,LILRB1,defense response to virus
+GO:0051607,10622,BP,POLR3G,defense response to virus
+GO:0051607,661,BP,POLR3D,defense response to virus
+GO:0051607,684,BP,BST2,defense response to virus
+GO:0051607,10521,BP,DDX17,defense response to virus
+GO:0051607,1130,BP,LYST,defense response to virus
+GO:0051607,9582,BP,APOBEC3B,defense response to virus
+GO:0051607,3447,BP,IFNA13,defense response to virus
+GO:0051607,24138,BP,IFIT5,defense response to virus
+GO:0051607,24138,BP,IFIT5,defense response to virus
+GO:0051607,54106,BP,TLR9,defense response to virus
+GO:0051607,8780,BP,RIOK3,defense response to virus
+GO:0051607,104,BP,ADARB1,defense response to virus
+GO:0051607,4599,BP,MX1,defense response to virus
+GO:0051607,6502,BP,SKP2,defense response to virus
+GO:0051607,4600,BP,MX2,defense response to virus
+GO:0051607,57379,BP,AICDA,defense response to virus
+GO:0051607,4940,BP,OAS3,defense response to virus
+GO:0051607,63901,BP,FAM111A,defense response to virus
+GO:0051607,29883,BP,CNOT7,defense response to virus
+GO:0051607,8772,BP,FADD,defense response to virus
+GO:0051607,25939,BP,SAMHD1,defense response to virus
+GO:0051607,10379,BP,IRF9,defense response to virus
+GO:0051607,25939,BP,SAMHD1,defense response to virus
+GO:0051607,53840,BP,TRIM34,defense response to virus
+GO:0051607,664,BP,BNIP3,defense response to virus
+GO:0051607,100507436,BP,MICA,defense response to virus
+GO:0051607,64170,BP,CARD9,defense response to virus
+GO:0051607,4599,BP,MX1,defense response to virus
+GO:0051607,54541,BP,DDIT4,defense response to virus
+GO:0051607,115004,BP,CGAS,defense response to virus
+GO:0051607,3446,BP,IFNA10,defense response to virus
+GO:0051607,4986,BP,OPRK1,defense response to virus
+GO:0051607,255520,BP,ELMOD2,defense response to virus
+GO:0051607,91607,BP,SLFN11,defense response to virus
+GO:0051607,7728,BP,ZNF175,defense response to virus
+GO:0051607,282616,BP,IFNL2,defense response to virus
+GO:0051607,6041,BP,RNASEL,defense response to virus
+GO:0051607,171568,BP,POLR3H,defense response to virus
+GO:0051607,3665,BP,IRF7,defense response to virus
+GO:0051607,10621,BP,POLR3F,defense response to virus
+GO:0051607,3428,BP,IFI16,defense response to virus
+GO:0051607,55763,BP,EXOC1,defense response to virus
+GO:0051607,9636,BP,ISG15,defense response to virus
+GO:0051607,566,BP,AZU1,defense response to virus
+GO:0051607,6036,BP,RNASE2,defense response to virus
+GO:0051607,10533,BP,ATG7,defense response to virus
+GO:0051607,10955,BP,SERINC3,defense response to virus
+GO:0051607,55421,BP,NCBP3,defense response to virus
+GO:0051607,29110,BP,TBK1,defense response to virus
+GO:0051607,27350,BP,APOBEC3C,defense response to virus
+GO:0051607,5788,BP,PTPRC,defense response to virus
+GO:0051607,50489,BP,CD207,defense response to virus
+GO:0051607,10084,BP,PQBP1,defense response to virus
+GO:0051607,8692,BP,HYAL2,defense response to virus
+GO:0051607,4938,BP,OAS1,defense response to virus
+GO:0051607,103,BP,ADAR,defense response to virus
+GO:0051607,11277,BP,TREX1,defense response to virus
+GO:0051607,6773,BP,STAT2,defense response to virus
+GO:0051607,2537,BP,IFI6,defense response to virus
+GO:0051607,101180976,BP,IFNL4,defense response to virus
+GO:0051607,3627,BP,CXCL10,defense response to virus
+GO:0051607,200315,BP,APOBEC3A,defense response to virus
+GO:0051607,10417,BP,SPON2,defense response to virus
+GO:0051607,5970,BP,RELA,defense response to virus
+GO:0051607,4600,BP,MX2,defense response to virus
+GO:0051607,3588,BP,IL10RB,defense response to virus
+GO:0051607,5611,BP,DNAJC3,defense response to virus
+GO:0051607,11128,BP,POLR3A,defense response to virus
+GO:0051607,101180976,BP,IFNL4,defense response to virus
+GO:0051607,56832,BP,IFNK,defense response to virus
+GO:0051607,6039,BP,RNASE6,defense response to virus
+GO:0051607,91543,BP,RSAD2,defense response to virus
+GO:0051607,201626,BP,PDE12,defense response to virus
+GO:0051607,4938,BP,OAS1,defense response to virus
+GO:0051607,5551,BP,PRF1,defense response to virus
+GO:0051607,55337,BP,SHFL,defense response to virus
+GO:0051607,85363,BP,TRIM5,defense response to virus
+GO:0051607,3441,BP,IFNA4,defense response to virus
+GO:0051607,84871,BP,AGBL4,defense response to virus
+GO:0051607,3451,BP,IFNA17,defense response to virus
+GO:0051607,3439,BP,IFNA1,defense response to virus
+GO:0051607,64135,BP,IFIH1,defense response to virus
+GO:0051607,56915,BP,EXOSC5,defense response to virus
+GO:0051607,10146,BP,G3BP1,defense response to virus
+GO:0051607,3660,BP,IRF2,defense response to virus
+GO:0051607,3433,BP,IFIT2,defense response to virus
+GO:0051607,10581,BP,IFITM2,defense response to virus
+GO:0051607,3455,BP,IFNAR2,defense response to virus
+GO:0051607,51311,BP,TLR8,defense response to virus
+GO:0051607,91607,BP,SLFN11,defense response to virus
+GO:0051607,51311,BP,TLR8,defense response to virus
+GO:0051607,10346,BP,TRIM22,defense response to virus
+GO:0051607,282616,BP,IFNL2,defense response to virus
+GO:0051607,338321,BP,NLRP9,defense response to virus
+GO:0051607,3445,BP,IFNA8,defense response to virus
+GO:0051607,340061,BP,STING1,defense response to virus
+GO:0051607,3458,BP,IFNG,defense response to virus
+GO:0051607,10060,BP,ABCC9,defense response to virus
+GO:0051607,29108,BP,PYCARD,defense response to virus
+GO:0051607,7706,BP,TRIM25,defense response to virus
+GO:0051607,1667,BP,DEFA1,defense response to virus
+GO:0051607,3434,BP,IFIT1,defense response to virus
+GO:0051607,4940,BP,OAS3,defense response to virus
+GO:0051607,8638,BP,OASL,defense response to virus
+GO:0051607,3569,BP,IL6,defense response to virus
+GO:0051607,4283,BP,CXCL9,defense response to virus
+GO:0051607,51191,BP,HERC5,defense response to virus
+GO:0051607,6059,BP,ABCE1,defense response to virus
+GO:0051607,3440,BP,IFNA2,defense response to virus
+GO:0051607,60489,BP,APOBEC3G,defense response to virus
+GO:0051607,9020,BP,MAP3K14,defense response to virus
+GO:0051607,200316,BP,APOBEC3F,defense response to virus
+GO:0051607,84166,BP,NLRC5,defense response to virus
+GO:0051607,256987,BP,SERINC5,defense response to virus
+GO:0051607,3456,BP,IFNB1,defense response to virus
+GO:0051607,151636,BP,DTX3L,defense response to virus
+GO:0051607,10410,BP,IFITM3,defense response to virus
+GO:0051607,2635,BP,GBP3,defense response to virus
+GO:0051607,8638,BP,OASL,defense response to virus
+GO:0051607,3659,BP,IRF1,defense response to virus
+GO:0051607,3429,BP,IFI27,defense response to virus
+GO:0051607,163702,BP,IFNLR1,defense response to virus
+GO:0051607,3669,BP,ISG20,defense response to virus
+GO:0051607,5359,BP,PLSCR1,defense response to virus
+GO:0051607,60509,BP,AGBL5,defense response to virus
+GO:0051607,114548,BP,NLRP3,defense response to virus
+GO:0051607,596,BP,BCL2,defense response to virus
+GO:0051607,23586,BP,DDX58,defense response to virus
+GO:0051607,5366,BP,PMAIP1,defense response to virus
+GO:0051607,51728,BP,POLR3K,defense response to virus
+GO:0051607,23586,BP,DDX58,defense response to virus
+GO:0051607,9188,BP,DDX21,defense response to virus
+GO:0051607,8638,BP,OASL,defense response to virus
+GO:0051607,140564,BP,APOBEC3D,defense response to virus
+GO:0051607,3663,BP,IRF5,defense response to virus
+GO:0051607,3661,BP,IRF3,defense response to virus
+GO:0051607,51284,BP,TLR7,defense response to virus
+GO:0051607,10771,BP,ZMYND11,defense response to virus
+GO:0051607,3449,BP,IFNA16,defense response to virus
+GO:0051607,4939,BP,OAS2,defense response to virus
+GO:0051607,3452,BP,IFNA21,defense response to virus
+GO:0051607,140564,BP,APOBEC3D,defense response to virus
+GO:0051607,54512,BP,EXOSC4,defense response to virus
+GO:0051607,10410,BP,IFITM3,defense response to virus
+GO:0051607,665,BP,BNIP3L,defense response to virus
+GO:0051607,64108,BP,RTP4,defense response to virus
+GO:0051607,55324,BP,ABCF3,defense response to virus
+GO:0051607,8678,BP,BECN1,defense response to virus
+GO:0051607,201294,BP,UNC13D,defense response to virus
+GO:0051607,958,BP,CD40,defense response to virus
+GO:0051607,1653,BP,DDX1,defense response to virus
+GO:0051607,57506,BP,MAVS,defense response to virus
+GO:0051607,200316,BP,APOBEC3F,defense response to virus
+GO:0051607,4939,BP,OAS2,defense response to virus
+GO:0051607,55718,BP,POLR3E,defense response to virus
+GO:0051607,29072,BP,SETD2,defense response to virus
+GO:0051607,81622,BP,UNC93B1,defense response to virus
+GO:0051607,5371,BP,PML,defense response to virus
+GO:0051607,57506,BP,MAVS,defense response to virus
+GO:0051607,90865,BP,IL33,defense response to virus
+GO:0051607,1668,BP,DEFA3,defense response to virus
+GO:0051607,3444,BP,IFNA7,defense response to virus
+GO:0051607,338376,BP,IFNE,defense response to virus
+GO:0051607,51561,BP,IL23A,defense response to virus
+GO:0051607,439996,BP,IFIT1B,defense response to virus
+GO:0051607,10964,BP,IFI44L,defense response to virus
+GO:0051607,79132,BP,DHX58,defense response to virus
+GO:0051607,2633,BP,GBP1,defense response to virus
+GO:0051607,3609,BP,ILF3,defense response to virus
+GO:0051607,80149,BP,ZC3H12A,defense response to virus
+GO:0051607,8519,BP,IFITM1,defense response to virus
+GO:0051607,83666,BP,PARP9,defense response to virus
+GO:0051607,339,BP,APOBEC1,defense response to virus
+GO:0051607,3593,BP,IL12B,defense response to virus
+GO:0051607,3442,BP,IFNA5,defense response to virus
+GO:0051607,2316,BP,FLNA,defense response to virus
+GO:0051607,5610,BP,EIF2AK2,defense response to virus
+GO:0051607,3437,BP,IFIT3,defense response to virus
+GO:0051607,85364,BP,ZCCHC3,defense response to virus
+GO:0051607,340061,BP,STING1,defense response to virus
+GO:0051607,3467,BP,IFNW1,defense response to virus
+GO:0051607,51284,BP,TLR7,defense response to virus
+GO:0051607,6772,BP,STAT1,defense response to virus
+GO:0051607,1755,BP,DMBT1,defense response to virus
+GO:0051607,7098,BP,TLR3,defense response to virus
+GO:0051607,146857,BP,SLFN13,defense response to virus
+GO:0051607,3443,BP,IFNA6,defense response to virus
+GO:0051607,164668,BP,APOBEC3H,defense response to virus
+GO:0051607,148022,BP,TICAM1,defense response to virus
+GO:0051607,5094,BP,PCBP2,defense response to virus
+GO:0051607,81844,BP,TRIM56,defense response to virus
+GO:0051607,282618,BP,IFNL1,defense response to virus
+GO:0051607,8547,BP,FCN3,defense response to virus
+GO:0051607,3669,BP,ISG20,defense response to virus
+GO:0051607,9255,BP,AIMP1,defense response to virus
+GO:0051607,728358,BP,DEFA1B,defense response to virus
+GO:0051607,2150,BP,F2RL1,defense response to virus
+GO:0051607,51297,BP,BPIFA1,defense response to virus
+GO:0051607,81559,BP,TRIM11,defense response to virus
+GO:0051607,282618,BP,IFNL1,defense response to virus
+GO:0098586,8729,BP,GBF1,cellular response to virus
+GO:0098586,3964,BP,LGALS8,cellular response to virus
+GO:0098586,5600,BP,MAPK11,cellular response to virus
+GO:0098586,3592,BP,IL12A,cellular response to virus
+GO:0098586,117854,BP,TRIM6,cellular response to virus
+GO:0098586,6363,BP,CCL19,cellular response to virus
+GO:0098586,80149,BP,ZC3H12A,cellular response to virus
+GO:0098586,5179,BP,PENK,cellular response to virus
+GO:0098586,345611,BP,IRGM,cellular response to virus
+GO:0098586,1687,BP,GSDME,cellular response to virus
+GO:0098586,9641,BP,IKBKE,cellular response to virus
+GO:0098586,406919,BP,MIR130A,cellular response to virus
+GO:0098586,407032,BP,MIR30C2,cellular response to virus
+GO:0098586,375,BP,ARF1,cellular response to virus
+GO:0098586,1432,BP,MAPK14,cellular response to virus
+GO:0098586,8780,BP,RIOK3,cellular response to virus
+GO:0098586,107181291,BP,PYDC5,cellular response to virus
+GO:0098586,407031,BP,MIR30C1,cellular response to virus
+GO:0098586,23076,BP,RRP1B,cellular response to virus
+GO:0098586,2537,BP,IFI6,cellular response to virus
+GO:0098586,4321,BP,MMP12,cellular response to virus
+GO:0098586,1147,BP,CHUK,cellular response to virus
+GO:0098586,220001,BP,VWCE,cellular response to virus
+GO:0098586,406938,BP,MIR146A,cellular response to virus
+GO:0098586,2332,BP,FMR1,cellular response to virus
+GO:0098586,103,BP,ADAR,cellular response to virus
+GO:0098586,3965,BP,LGALS9,cellular response to virus
