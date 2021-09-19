@@ -1,4 +1,4 @@
-sample,Sample,treatment,Intron_Num,intron_RPKM,intron_TPM,Spliceosome,Apoptosis,double-stranded RNA binding,defense response to virus
+sample,Sample,treatment,Intron_Num,Intron_RPKM,Intron_TPM,Spliceosome,Apoptosis,double-stranded RNA binding,defense response to virus
 SRR12782618,GSM4820179,Control,2892,9286.8683,3141.5781,0.717887487,0.294732922,0.514954026,-0.218876827
 SRR12782619,GSM4820180,Control,2445,8024.792,2651.7614,0.733734195,0.306378349,0.48758154,-0.193809355
 SRR12782620,GSM4820181,Control,2209,7685.7268,2598.4855,0.744416501,0.292265869,0.503968732,-0.183691636
