@@ -1,0 +1,632 @@
+GO,ENTREZID,ONTOLOGY,SYMBOL,Terms
+GO:0003725,13204,MF,Dhx15,double-stranded RNA binding
+GO:0003725,13211,MF,Dhx9,double-stranded RNA binding
+GO:0003725,13681,MF,Eif4a1,double-stranded RNA binding
+GO:0003725,14000,MF,Drosha,double-stranded RNA binding
+GO:0003725,15289,MF,Hmgb1,double-stranded RNA binding
+GO:0003725,15510,MF,Hspd1,double-stranded RNA binding
+GO:0003725,15516,MF,Hsp90ab1,double-stranded RNA binding
+GO:0003725,15568,MF,Elavl1,double-stranded RNA binding
+GO:0003725,16201,MF,Ilf3,double-stranded RNA binding
+GO:0003725,17254,MF,Slc3a2,double-stranded RNA binding
+GO:0003725,17698,MF,Msn,double-stranded RNA binding
+GO:0003725,17884,MF,Myh4,double-stranded RNA binding
+GO:0003725,19106,MF,Eif2ak2,double-stranded RNA binding
+GO:0003725,20744,MF,Strbp,double-stranded RNA binding
+GO:0003725,20853,MF,Stau1,double-stranded RNA binding
+GO:0003725,21357,MF,Tarbp2,double-stranded RNA binding
+GO:0003725,21744,MF,Adad1,double-stranded RNA binding
+GO:0003725,22042,MF,Tfrc,double-stranded RNA binding
+GO:0003725,22143,MF,Tuba1b,double-stranded RNA binding
+GO:0003725,22352,MF,Vim,double-stranded RNA binding
+GO:0003725,22763,MF,Zfr,double-stranded RNA binding
+GO:0003725,23960,MF,Oas1g,double-stranded RNA binding
+GO:0003725,23961,MF,Oas1b,double-stranded RNA binding
+GO:0003725,23962,MF,Oasl2,double-stranded RNA binding
+GO:0003725,23992,MF,Prkra,double-stranded RNA binding
+GO:0003725,26919,MF,Zfp346,double-stranded RNA binding
+GO:0003725,29819,MF,Stau2,double-stranded RNA binding
+GO:0003725,51810,MF,Hnrnpu,double-stranded RNA binding
+GO:0003725,56200,MF,Ddx21,double-stranded RNA binding
+GO:0003725,56417,MF,Adar,double-stranded RNA binding
+GO:0003725,56758,MF,Mbnl1,double-stranded RNA binding
+GO:0003725,58203,MF,Zbp1,double-stranded RNA binding
+GO:0003725,66369,MF,Dus2,double-stranded RNA binding
+GO:0003725,66408,MF,Aptx,double-stranded RNA binding
+GO:0003725,66801,MF,Prkrip1,double-stranded RNA binding
+GO:0003725,67070,MF,Lsm14a,double-stranded RNA binding
+GO:0003725,67154,MF,Mtdh,double-stranded RNA binding
+GO:0003725,67300,MF,Cltc,double-stranded RNA binding
+GO:0003725,67781,MF,Ilf2,double-stranded RNA binding
+GO:0003725,69163,MF,Mrpl44,double-stranded RNA binding
+GO:0003725,71586,MF,Ifih1,double-stranded RNA binding
+GO:0003725,72162,MF,Dhx36,double-stranded RNA binding
+GO:0003725,72831,MF,Dhx30,double-stranded RNA binding
+GO:0003725,75773,MF,Adad2,double-stranded RNA binding
+GO:0003725,76438,MF,Rftn1,double-stranded RNA binding
+GO:0003725,76850,MF,Ago4,double-stranded RNA binding
+GO:0003725,80861,MF,Dhx58,double-stranded RNA binding
+GO:0003725,94191,MF,Adarb2,double-stranded RNA binding
+GO:0003725,94223,MF,Dgcr8,double-stranded RNA binding
+GO:0003725,100535,MF,Oas1d,double-stranded RNA binding
+GO:0003725,103406,MF,Zfr2,double-stranded RNA binding
+GO:0003725,104721,MF,Ddx1,double-stranded RNA binding
+GO:0003725,109711,MF,Actn1,double-stranded RNA binding
+GO:0003725,110532,MF,Adarb1,double-stranded RNA binding
+GO:0003725,114643,MF,Oas1c,double-stranded RNA binding
+GO:0003725,142980,MF,Tlr3,double-stranded RNA binding
+GO:0003725,170743,MF,Tlr7,double-stranded RNA binding
+GO:0003725,170744,MF,Tlr8,double-stranded RNA binding
+GO:0003725,192119,MF,Dicer1,double-stranded RNA binding
+GO:0003725,193740,MF,Hspa1a,double-stranded RNA binding
+GO:0003725,214150,MF,Ago3,double-stranded RNA binding
+GO:0003725,214597,MF,Sidt2,double-stranded RNA binding
+GO:0003725,216877,MF,Dhx33,double-stranded RNA binding
+GO:0003725,227613,MF,Tubb4b,double-stranded RNA binding
+GO:0003725,230073,MF,Ddx58,double-stranded RNA binding
+GO:0003725,230734,MF,Yrdc,double-stranded RNA binding
+GO:0003725,231655,MF,Oasl1,double-stranded RNA binding
+GO:0003725,231699,MF,Oas1e,double-stranded RNA binding
+GO:0003725,234311,MF,Ddx60,double-stranded RNA binding
+GO:0003725,236511,MF,Ago1,double-stranded RNA binding
+GO:0003725,239528,MF,Ago2,double-stranded RNA binding
+GO:0003725,243262,MF,Oas1f,double-stranded RNA binding
+GO:0003725,246727,MF,Oas3,double-stranded RNA binding
+GO:0003725,246728,MF,Oas2,double-stranded RNA binding
+GO:0003725,246729,MF,Oas1h,double-stranded RNA binding
+GO:0003725,246730,MF,Oas1a,double-stranded RNA binding
+GO:0003725,319817,MF,Rc3h2,double-stranded RNA binding
+GO:0003725,320007,MF,Sidt1,double-stranded RNA binding
+GO:0003725,338359,MF,Supv3l1,double-stranded RNA binding
+GO:0003725,381305,MF,Rc3h1,double-stranded RNA binding
+GO:0009615,11993,BP,Aup1,response to virus
+GO:0009615,12048,BP,Bcl2l1,response to virus
+GO:0009615,12051,BP,Bcl3,response to virus
+GO:0009615,13205,BP,Ddx3x,response to virus
+GO:0009615,14042,BP,Ext1,response to virus
+GO:0009615,14349,BP,Fv1,response to virus
+GO:0009615,15586,BP,Hyal1,response to virus
+GO:0009615,15587,BP,Hyal2,response to virus
+GO:0009615,15957,BP,Ifit1,response to virus
+GO:0009615,15958,BP,Ifit2,response to virus
+GO:0009615,15978,BP,Ifng,response to virus
+GO:0009615,16420,BP,Itgb6,response to virus
+GO:0009615,16639,BP,Klra8,response to virus
+GO:0009615,16819,BP,Lcn2,response to virus
+GO:0009615,16963,BP,Xcl1,response to virus
+GO:0009615,17874,BP,Myd88,response to virus
+GO:0009615,19106,BP,Eif2ak2,response to virus
+GO:0009615,19775,BP,Xpr1,response to virus
+GO:0009615,19777,BP,Uri1,response to virus
+GO:0009615,19882,BP,Mst1r,response to virus
+GO:0009615,20597,BP,Smpd1,response to virus
+GO:0009615,21822,BP,Tgtp1,response to virus
+GO:0009615,21926,BP,Tnf,response to virus
+GO:0009615,22164,BP,Tnfsf4,response to virus
+GO:0009615,23962,BP,Oasl2,response to virus
+GO:0009615,56200,BP,Ddx21,response to virus
+GO:0009615,56417,BP,Adar,response to virus
+GO:0009615,57444,BP,Isg20,response to virus
+GO:0009615,58185,BP,Rsad2,response to virus
+GO:0009615,64685,BP,Nmi,response to virus
+GO:0009615,66141,BP,Ifitm3,response to virus
+GO:0009615,68713,BP,Ifitm1,response to virus
+GO:0009615,69550,BP,Bst2,response to virus
+GO:0009615,71586,BP,Ifih1,response to virus
+GO:0009615,72162,BP,Dhx36,response to virus
+GO:0009615,73914,BP,Irak3,response to virus
+GO:0009615,76933,BP,Ifi27l2a,response to virus
+GO:0009615,78781,BP,Zc3hav1,response to virus
+GO:0009615,80861,BP,Dhx58,response to virus
+GO:0009615,80876,BP,Ifitm2,response to virus
+GO:0009615,81897,BP,Tlr9,response to virus
+GO:0009615,104721,BP,Ddx1,response to virus
+GO:0009615,108032,BP,Fhe,response to virus
+GO:0009615,109685,BP,Hyal3,response to virus
+GO:0009615,117198,BP,Ivns1abp,response to virus
+GO:0009615,142980,BP,Tlr3,response to virus
+GO:0009615,170744,BP,Tlr8,response to virus
+GO:0009615,214593,BP,Duox2,response to virus
+GO:0009615,230073,BP,Ddx58,response to virus
+GO:0009615,231655,BP,Oasl1,response to virus
+GO:0009615,232989,BP,Hnrnpul1,response to virus
+GO:0009615,233490,BP,Crebzf,response to virus
+GO:0009615,234311,BP,Ddx60,response to virus
+GO:0009615,246727,BP,Oas3,response to virus
+GO:0009615,246728,BP,Oas2,response to virus
+GO:0009615,246730,BP,Oas1a,response to virus
+GO:0009615,267019,BP,Rps15a,response to virus
+GO:0009615,279572,BP,Tlr13,response to virus
+GO:0009615,320910,BP,Itgb8,response to virus
+GO:0009615,381319,BP,Batf3,response to virus
+GO:0051607,11628,BP,Aicda,defense response to virus
+GO:0051607,11810,BP,Apobec1,defense response to virus
+GO:0051607,12043,BP,Bcl2,defense response to virus
+GO:0051607,12048,BP,Bcl2l1,defense response to virus
+GO:0051607,12176,BP,Bnip3,defense response to virus
+GO:0051607,12177,BP,Bnip3l,defense response to virus
+GO:0051607,12524,BP,Cd86,defense response to virus
+GO:0051607,12525,BP,Cd8a,defense response to virus
+GO:0051607,12675,BP,Chuk,defense response to virus
+GO:0051607,12909,BP,Crcp,defense response to virus
+GO:0051607,13052,BP,Cxadr,defense response to virus
+GO:0051607,14063,BP,F2rl1,defense response to virus
+GO:0051607,14082,BP,Fadd,defense response to virus
+GO:0051607,14349,BP,Fv1,defense response to virus
+GO:0051607,14468,BP,Gbp2b,defense response to virus
+GO:0051607,14732,BP,Gpam,defense response to virus
+GO:0051607,15061,BP,Ifi44l,defense response to virus
+GO:0051607,15587,BP,Hyal2,defense response to virus
+GO:0051607,15945,BP,Cxcl10,defense response to virus
+GO:0051607,15957,BP,Ifit1,defense response to virus
+GO:0051607,15958,BP,Ifit2,defense response to virus
+GO:0051607,15959,BP,Ifit3,defense response to virus
+GO:0051607,15962,BP,Ifna1,defense response to virus
+GO:0051607,15964,BP,Ifna11,defense response to virus
+GO:0051607,15965,BP,Ifna2,defense response to virus
+GO:0051607,15967,BP,Ifna4,defense response to virus
+GO:0051607,15969,BP,Ifna6,defense response to virus
+GO:0051607,15972,BP,Ifna9,defense response to virus
+GO:0051607,15975,BP,Ifnar1,defense response to virus
+GO:0051607,15976,BP,Ifnar2,defense response to virus
+GO:0051607,15977,BP,Ifnb1,defense response to virus
+GO:0051607,15978,BP,Ifng,defense response to virus
+GO:0051607,15979,BP,Ifngr1,defense response to virus
+GO:0051607,15980,BP,Ifngr2,defense response to virus
+GO:0051607,16155,BP,Il10rb,defense response to virus
+GO:0051607,16160,BP,Il12b,defense response to virus
+GO:0051607,16193,BP,Il6,defense response to virus
+GO:0051607,16201,BP,Ilf3,defense response to virus
+GO:0051607,16362,BP,Irf1,defense response to virus
+GO:0051607,16363,BP,Irf2,defense response to virus
+GO:0051607,16365,BP,Acod1,defense response to virus
+GO:0051607,16396,BP,Itch,defense response to virus
+GO:0051607,16411,BP,Itgax,defense response to virus
+GO:0051607,16523,BP,Kcnj8,defense response to virus
+GO:0051607,17086,BP,Ncr1,defense response to virus
+GO:0051607,17101,BP,Lyst,defense response to virus
+GO:0051607,17329,BP,Cxcl9,defense response to virus
+GO:0051607,17454,BP,Mov10,defense response to virus
+GO:0051607,18387,BP,Oprk1,defense response to virus
+GO:0051607,18521,BP,Pcbp2,defense response to virus
+GO:0051607,18646,BP,Prf1,defense response to virus
+GO:0051607,18854,BP,Pml,defense response to virus
+GO:0051607,18983,BP,Cnot7,defense response to virus
+GO:0051607,19106,BP,Eif2ak2,defense response to virus
+GO:0051607,19264,BP,Ptprc,defense response to virus
+GO:0051607,20128,BP,Trim30a,defense response to virus
+GO:0051607,20846,BP,Stat1,defense response to virus
+GO:0051607,20847,BP,Stat2,defense response to virus
+GO:0051607,20928,BP,Abcc9,defense response to virus
+GO:0051607,21939,BP,Cd40,defense response to virus
+GO:0051607,22038,BP,Plscr1,defense response to virus
+GO:0051607,22040,BP,Trex1,defense response to virus
+GO:0051607,22320,BP,Vamp8,defense response to virus
+GO:0051607,23960,BP,Oas1g,defense response to virus
+GO:0051607,23961,BP,Oas1b,defense response to virus
+GO:0051607,23962,BP,Oasl2,defense response to virus
+GO:0051607,24014,BP,Rnasel,defense response to virus
+GO:0051607,26565,BP,Pla2g10,defense response to virus
+GO:0051607,26939,BP,Polr3e,defense response to virus
+GO:0051607,26943,BP,Serinc3,defense response to virus
+GO:0051607,27041,BP,G3bp1,defense response to virus
+GO:0051607,27056,BP,Irf5,defense response to virus
+GO:0051607,27103,BP,Eif2ak4,defense response to virus
+GO:0051607,27401,BP,Skp2,defense response to virus
+GO:0051607,27406,BP,Abcf3,defense response to virus
+GO:0051607,27998,BP,Exosc5,defense response to virus
+GO:0051607,53859,BP,Map3k14,defense response to virus
+GO:0051607,54123,BP,Irf7,defense response to virus
+GO:0051607,54131,BP,Irf3,defense response to virus
+GO:0051607,54445,BP,Unc93b1,defense response to virus
+GO:0051607,54633,BP,Pqbp1,defense response to virus
+GO:0051607,56045,BP,Samhd1,defense response to virus
+GO:0051607,56200,BP,Ddx21,defense response to virus
+GO:0051607,56208,BP,Becn1,defense response to virus
+GO:0051607,56417,BP,Adar,defense response to virus
+GO:0051607,56480,BP,Tbk1,defense response to virus
+GO:0051607,56532,BP,Ripk3,defense response to virus
+GO:0051607,57444,BP,Isg20,defense response to virus
+GO:0051607,58185,BP,Rsad2,defense response to virus
+GO:0051607,58203,BP,Zbp1,defense response to virus
+GO:0051607,66141,BP,Ifitm3,defense response to virus
+GO:0051607,66505,BP,Zmynd11,defense response to virus
+GO:0051607,66824,BP,Pycard,defense response to virus
+GO:0051607,66874,BP,Ncbp3,defense response to virus
+GO:0051607,66878,BP,Riok3,defense response to virus
+GO:0051607,67005,BP,Polr3k,defense response to virus
+GO:0051607,67040,BP,Ddx17,defense response to virus
+GO:0051607,67065,BP,Polr3d,defense response to virus
+GO:0051607,67070,BP,Lsm14a,defense response to virus
+GO:0051607,67486,BP,Polr3g,defense response to virus
+GO:0051607,67775,BP,Rtp4,defense response to virus
+GO:0051607,67917,BP,Zcchc3,defense response to virus
+GO:0051607,68713,BP,Ifitm1,defense response to virus
+GO:0051607,69550,BP,Bst2,defense response to virus
+GO:0051607,70408,BP,Polr3f,defense response to virus
+GO:0051607,70428,BP,Polr3b,defense response to virus
+GO:0051607,70450,BP,Unc13d,defense response to virus
+GO:0051607,71586,BP,Ifih1,defense response to virus
+GO:0051607,72162,BP,Dhx36,defense response to virus
+GO:0051607,72354,BP,Ttc4,defense response to virus
+GO:0051607,72512,BP,Sting1,defense response to virus
+GO:0051607,72536,BP,Tagap,defense response to virus
+GO:0051607,72935,BP,Ddx41,defense response to virus
+GO:0051607,74244,BP,Atg7,defense response to virus
+GO:0051607,74414,BP,Polr3c,defense response to virus
+GO:0051607,74482,BP,Ifitm7,defense response to virus
+GO:0051607,74568,BP,Mlkl,defense response to virus
+GO:0051607,74747,BP,Ddit4,defense response to virus
+GO:0051607,76681,BP,Trim12a,defense response to virus
+GO:0051607,77125,BP,Il33,defense response to virus
+GO:0051607,78781,BP,Zc3hav1,defense response to virus
+GO:0051607,78929,BP,Polr3h,defense response to virus
+GO:0051607,78933,BP,Agbl4,defense response to virus
+GO:0051607,80285,BP,Parp9,defense response to virus
+GO:0051607,80287,BP,Apobec3,defense response to virus
+GO:0051607,80861,BP,Dhx58,defense response to virus
+GO:0051607,80876,BP,Ifitm2,defense response to virus
+GO:0051607,81897,BP,Tlr9,defense response to virus
+GO:0051607,83430,BP,Il23a,defense response to virus
+GO:0051607,94091,BP,Trim11,defense response to virus
+GO:0051607,94094,BP,Trim34a,defense response to virus
+GO:0051607,100535,BP,Oas1d,defense response to virus
+GO:0051607,100689,BP,Spon2,defense response to virus
+GO:0051607,104721,BP,Ddx1,defense response to virus
+GO:0051607,106759,BP,Ticam1,defense response to virus
+GO:0051607,107569,BP,Nt5c3,defense response to virus
+GO:0051607,109075,BP,Exosc4,defense response to virus
+GO:0051607,110558,BP,H2-Q9,defense response to virus
+GO:0051607,112419,BP,Ifit1bl2,defense response to virus
+GO:0051607,114643,BP,Oas1c,defense response to virus
+GO:0051607,142980,BP,Tlr3,defense response to virus
+GO:0051607,170743,BP,Tlr7,defense response to virus
+GO:0051607,170744,BP,Tlr8,defense response to virus
+GO:0051607,192119,BP,Dicer1,defense response to virus
+GO:0051607,209200,BP,Dtx3l,defense response to virus
+GO:0051607,213002,BP,Ifitm6,defense response to virus
+GO:0051607,214763,BP,Cgas,defense response to virus
+GO:0051607,216799,BP,Nlrp3,defense response to virus
+GO:0051607,217069,BP,Trim25,defense response to virus
+GO:0051607,217845,BP,Ifi27l2b,defense response to virus
+GO:0051607,218442,BP,Serinc5,defense response to virus
+GO:0051607,224840,BP,Treml4,defense response to virus
+GO:0051607,225471,BP,Ticam2,defense response to virus
+GO:0051607,228607,BP,Mavs,defense response to virus
+GO:0051607,230073,BP,Ddx58,defense response to virus
+GO:0051607,230396,BP,Ifna13,defense response to virus
+GO:0051607,230405,BP,Ifne,defense response to virus
+GO:0051607,231093,BP,Agbl5,defense response to virus
+GO:0051607,231655,BP,Oasl1,defense response to virus
+GO:0051607,231699,BP,Oas1e,defense response to virus
+GO:0051607,233912,BP,Armc5,defense response to virus
+GO:0051607,234311,BP,Ddx60,defense response to virus
+GO:0051607,235626,BP,Setd2,defense response to virus
+GO:0051607,237886,BP,Slfn9,defense response to virus
+GO:0051607,242519,BP,Ifna12,defense response to virus
+GO:0051607,242700,BP,Ifnlr1,defense response to virus
+GO:0051607,243262,BP,Oas1f,defense response to virus
+GO:0051607,243874,BP,Nlrp9b,defense response to virus
+GO:0051607,246278,BP,Cd207,defense response to virus
+GO:0051607,246727,BP,Oas3,defense response to virus
+GO:0051607,246728,BP,Oas2,defense response to virus
+GO:0051607,246729,BP,Oas1h,defense response to virus
+GO:0051607,246730,BP,Oas1a,defense response to virus
+GO:0051607,276950,BP,Slfn8,defense response to virus
+GO:0051607,319278,BP,Shfl,defense response to virus
+GO:0051607,330496,BP,Ifnl2,defense response to virus
+GO:0051607,332579,BP,Card9,defense response to virus
+GO:0051607,338374,BP,Ifnl3,defense response to virus
+GO:0051607,384309,BP,Trim56,defense response to virus
+GO:0051607,387510,BP,Ifnk,defense response to virus
+GO:0051607,637515,BP,Nlrp1b,defense response to virus
+GO:0051607,667370,BP,Ifit3b,defense response to virus
+GO:0051607,667373,BP,Ifit1bl1,defense response to virus
+GO:0051607,100038882,BP,Isg15,defense response to virus
+GO:0098586,11840,BP,Arf1,cellular response to virus
+GO:0098586,12028,BP,Bax,cellular response to virus
+GO:0098586,12675,BP,Chuk,cellular response to virus
+GO:0098586,12914,BP,Crebbp,cellular response to virus
+GO:0098586,13205,BP,Ddx3x,cellular response to virus
+GO:0098586,14255,BP,Flt3,cellular response to virus
+GO:0098586,14265,BP,Fmr1,cellular response to virus
+GO:0098586,14633,BP,Gli2,cellular response to virus
+GO:0098586,15251,BP,Hif1a,cellular response to virus
+GO:0098586,15519,BP,Hsp90aa1,cellular response to virus
+GO:0098586,15977,BP,Ifnb1,cellular response to virus
+GO:0098586,16159,BP,Il12a,cellular response to virus
+GO:0098586,16193,BP,Il6,cellular response to virus
+GO:0098586,16859,BP,Lgals9,cellular response to virus
+GO:0098586,17381,BP,Mmp12,cellular response to virus
+GO:0098586,18985,BP,Pou2af1,cellular response to virus
+GO:0098586,18987,BP,Pou2f2,cellular response to virus
+GO:0098586,19094,BP,Mapk11,cellular response to virus
+GO:0098586,24047,BP,Ccl19,cellular response to virus
+GO:0098586,26416,BP,Mapk14,cellular response to virus
+GO:0098586,28185,BP,Tomm70a,cellular response to virus
+GO:0098586,54131,BP,Irf3,cellular response to virus
+GO:0098586,54396,BP,Irgm2,cellular response to virus
+GO:0098586,54722,BP,Gsdme,cellular response to virus
+GO:0098586,56048,BP,Lgals8,cellular response to virus
+GO:0098586,56417,BP,Adar,cellular response to virus
+GO:0098586,56489,BP,Ikbke,cellular response to virus
+GO:0098586,60505,BP,Il21,cellular response to virus
+GO:0098586,66878,BP,Riok3,cellular response to virus
+GO:0098586,71768,BP,Vwce,cellular response to virus
+GO:0098586,72462,BP,Rrp1b,cellular response to virus
+GO:0098586,78781,BP,Zc3hav1,cellular response to virus
+GO:0098586,94088,BP,Trim6,cellular response to virus
+GO:0098586,107338,BP,Gbf1,cellular response to virus
+GO:0098586,214150,BP,Ago3,cellular response to virus
+GO:0098586,230738,BP,Zc3h12a,cellular response to virus
+GO:0098586,545030,BP,Wdfy4,cellular response to virus
+mmu03040,100042165,KEGG,Thoc2l,Spliceosome
+mmu03040,100043292,KEGG,Gm4340,Spliceosome
+mmu03040,100861880,KEGG,Gm21293,Spliceosome
+mmu03040,101214,KEGG,Tra2a,Spliceosome
+mmu03040,101943,KEGG,Sf3b3,Spliceosome
+mmu03040,107686,KEGG,Snrpd2,Spliceosome
+mmu03040,107701,KEGG,Sf3b4,Spliceosome
+mmu03040,108014,KEGG,Srsf9,Spliceosome
+mmu03040,108121,KEGG,U2af1,Spliceosome
+mmu03040,110809,KEGG,Srsf1,Spliceosome
+mmu03040,11834,KEGG,Aqr,Spliceosome
+mmu03040,13204,KEGG,Dhx15,Spliceosome
+mmu03040,13207,KEGG,Ddx5,Spliceosome
+mmu03040,14105,KEGG,Srsf10,Spliceosome
+mmu03040,15381,KEGG,Hnrnpc,Spliceosome
+mmu03040,15382,KEGG,Hnrnpa1,Spliceosome
+mmu03040,15387,KEGG,Hnrnpk,Spliceosome
+mmu03040,15481,KEGG,Hspa8,Spliceosome
+mmu03040,15482,KEGG,Hspa1l,Spliceosome
+mmu03040,15511,KEGG,Hspa1b,Spliceosome
+mmu03040,15512,KEGG,Hspa2,Spliceosome
+mmu03040,17149,KEGG,Magoh,Spliceosome
+mmu03040,192159,KEGG,Prpf8,Spliceosome
+mmu03040,192170,KEGG,Eif4a3,Spliceosome
+mmu03040,193116,KEGG,Slu7,Spliceosome
+mmu03040,193740,KEGG,Hspa1a,Spliceosome
+mmu03040,19655,KEGG,Rbmx,Spliceosome
+mmu03040,19848,KEGG,Rnu2-10,Spliceosome
+mmu03040,20222,KEGG,Sf3a2,Spliceosome
+mmu03040,20227,KEGG,Sart1,Spliceosome
+mmu03040,20382,KEGG,Srsf2,Spliceosome
+mmu03040,20383,KEGG,Srsf3,Spliceosome
+mmu03040,20384,KEGG,Srsf5,Spliceosome
+mmu03040,20462,KEGG,Tra2b,Spliceosome
+mmu03040,20624,KEGG,Eftud2,Spliceosome
+mmu03040,20630,KEGG,Snrpc,Spliceosome
+mmu03040,20637,KEGG,Snrnp70,Spliceosome
+mmu03040,20638,KEGG,Snrpb,Spliceosome
+mmu03040,20639,KEGG,Snrpb2,Spliceosome
+mmu03040,20641,KEGG,Snrpd1,Spliceosome
+mmu03040,20643,KEGG,Snrpe,Spliceosome
+mmu03040,20826,KEGG,Snu13,Spliceosome
+mmu03040,212880,KEGG,Ddx46,Spliceosome
+mmu03040,21681,KEGG,Alyref,Spliceosome
+mmu03040,217207,KEGG,Dhx8,Spliceosome
+mmu03040,22185,KEGG,U2af2,Spliceosome
+mmu03040,225027,KEGG,Srsf7,Spliceosome
+mmu03040,225160,KEGG,Thoc1,Spliceosome
+mmu03040,229279,KEGG,Hnrnpa3,Spliceosome
+mmu03040,230596,KEGG,Prpf38a,Spliceosome
+mmu03040,231889,KEGG,Bud31,Spliceosome
+mmu03040,233073,KEGG,U2af1l4,Spliceosome
+mmu03040,233908,KEGG,Fus,Spliceosome
+mmu03040,23983,KEGG,Pcbp1,Spliceosome
+mmu03040,27366,KEGG,Txnl4a,Spliceosome
+mmu03040,27756,KEGG,Lsm2,Spliceosome
+mmu03040,27967,KEGG,Cherp,Spliceosome
+mmu03040,28000,KEGG,Prpf19,Spliceosome
+mmu03040,28035,KEGG,Usp39,Spliceosome
+mmu03040,319322,KEGG,Sf3b2,Spliceosome
+mmu03040,320632,KEGG,Snrnp200,Spliceosome
+mmu03040,331401,KEGG,Thoc2,Spliceosome
+mmu03040,433702,KEGG,Ncbp1,Spliceosome
+mmu03040,50783,KEGG,Lsm4,Spliceosome
+mmu03040,51810,KEGG,Hnrnpu,Spliceosome
+mmu03040,53317,KEGG,Plrg1,Spliceosome
+mmu03040,53607,KEGG,Snrpa,Spliceosome
+mmu03040,53817,KEGG,Ddx39b,Spliceosome
+mmu03040,545091,KEGG,Hnrnpa1l2-ps2,Spliceosome
+mmu03040,54614,KEGG,Prpf40b,Spliceosome
+mmu03040,54633,KEGG,Pqbp1,Spliceosome
+mmu03040,55934,KEGG,Rp9,Spliceosome
+mmu03040,56009,KEGG,Alyref2,Spliceosome
+mmu03040,56031,KEGG,Ppie,Spliceosome
+mmu03040,56070,KEGG,Tcerg1,Spliceosome
+mmu03040,56194,KEGG,Prpf40a,Spliceosome
+mmu03040,56215,KEGG,Acin1,Spliceosome
+mmu03040,57317,KEGG,Srsf4,Spliceosome
+mmu03040,57905,KEGG,Isy1,Spliceosome
+mmu03040,60321,KEGG,Wbp11,Spliceosome
+mmu03040,60365,KEGG,Rbm8a,Spliceosome
+mmu03040,64340,KEGG,Dhx38,Spliceosome
+mmu03040,66055,KEGG,Sf3b6,Spliceosome
+mmu03040,66070,KEGG,Cwc15,Spliceosome
+mmu03040,66094,KEGG,Lsm7,Spliceosome
+mmu03040,66101,KEGG,Ppih,Spliceosome
+mmu03040,66125,KEGG,Sf3b5,Spliceosome
+mmu03040,66354,KEGG,Snw1,Spliceosome
+mmu03040,66373,KEGG,Lsm5,Spliceosome
+mmu03040,66441,KEGG,Magohb,Spliceosome
+mmu03040,66492,KEGG,Zmat2,Spliceosome
+mmu03040,66585,KEGG,Snrnp40,Spliceosome
+mmu03040,66618,KEGG,Snrnp27,Spliceosome
+mmu03040,66642,KEGG,Ctnnbl1,Spliceosome
+mmu03040,66810,KEGG,Rbm22,Spliceosome
+mmu03040,668137,KEGG,Eif4a3l1,Spliceosome
+mmu03040,66877,KEGG,Crnkl1,Spliceosome
+mmu03040,66921,KEGG,Prpf38b,Spliceosome
+mmu03040,67039,KEGG,Rbm25,Spliceosome
+mmu03040,67229,KEGG,Prpf18,Spliceosome
+mmu03040,67332,KEGG,Snrpd3,Spliceosome
+mmu03040,67439,KEGG,Xab2,Spliceosome
+mmu03040,67465,KEGG,Sf3a1,Spliceosome
+mmu03040,67678,KEGG,Lsm3,Spliceosome
+mmu03040,67958,KEGG,U2surp,Spliceosome
+mmu03040,67959,KEGG,Puf60,Spliceosome
+mmu03040,67996,KEGG,Srsf6,Spliceosome
+mmu03040,68011,KEGG,Snrpg,Spliceosome
+mmu03040,68092,KEGG,Ncbp2,Spliceosome
+mmu03040,68183,KEGG,Bcas2,Spliceosome
+mmu03040,68479,KEGG,Phf5a,Spliceosome
+mmu03040,68592,KEGG,Syf2,Spliceosome
+mmu03040,68816,KEGG,Ppil1,Spliceosome
+mmu03040,68879,KEGG,Prpf6,Spliceosome
+mmu03040,68981,KEGG,Snrpa1,Spliceosome
+mmu03040,68988,KEGG,Prpf31,Spliceosome
+mmu03040,69192,KEGG,Dhx16,Spliceosome
+mmu03040,69878,KEGG,Snrpf,Spliceosome
+mmu03040,70052,KEGG,Prpf4,Spliceosome
+mmu03040,70767,KEGG,Prpf3,Spliceosome
+mmu03040,71702,KEGG,Cdc5l,Spliceosome
+mmu03040,71713,KEGG,Cdc40,Spliceosome
+mmu03040,72047,KEGG,Ddx42,Spliceosome
+mmu03040,72654,KEGG,Ccdc12,Spliceosome
+mmu03040,73666,KEGG,Thoc3,Spliceosome
+mmu03040,74351,KEGG,Ddx23,Spliceosome
+mmu03040,75062,KEGG,Sf3a3,Spliceosome
+mmu03040,76479,KEGG,Smndc1,Spliceosome
+mmu03040,76522,KEGG,Lsm8,Spliceosome
+mmu03040,76936,KEGG,Hnrnpm,Spliceosome
+mmu03040,76938,KEGG,Rbm17,Spliceosome
+mmu03040,78651,KEGG,Lsm6,Spliceosome
+mmu03040,81898,KEGG,Sf3b1,Spliceosome
+mmu03040,97418,KEGG,Rnu5g,Spliceosome
+mmu04210,110157,KEGG,Raf1,Apoptosis
+mmu04210,11461,KEGG,Actb,Apoptosis
+mmu04210,11465,KEGG,Actg1,Apoptosis
+mmu04210,11545,KEGG,Parp1,Apoptosis
+mmu04210,11546,KEGG,Parp2,Apoptosis
+mmu04210,11651,KEGG,Akt1,Apoptosis
+mmu04210,11652,KEGG,Akt2,Apoptosis
+mmu04210,11783,KEGG,Apaf1,Apoptosis
+mmu04210,11796,KEGG,Birc3,Apoptosis
+mmu04210,11797,KEGG,Birc2,Apoptosis
+mmu04210,11798,KEGG,Xiap,Apoptosis
+mmu04210,11799,KEGG,Birc5,Apoptosis
+mmu04210,11911,KEGG,Atf4,Apoptosis
+mmu04210,11920,KEGG,Atm,Apoptosis
+mmu04210,12015,KEGG,Bad,Apoptosis
+mmu04210,12018,KEGG,Bak1,Apoptosis
+mmu04210,12028,KEGG,Bax,Apoptosis
+mmu04210,12043,KEGG,Bcl2,Apoptosis
+mmu04210,12044,KEGG,Bcl2a1a,Apoptosis
+mmu04210,12045,KEGG,Bcl2a1b,Apoptosis
+mmu04210,12046,KEGG,Bcl2a1c,Apoptosis
+mmu04210,12047,KEGG,Bcl2a1d,Apoptosis
+mmu04210,12048,KEGG,Bcl2l1,Apoptosis
+mmu04210,12122,KEGG,Bid,Apoptosis
+mmu04210,12123,KEGG,Hrk,Apoptosis
+mmu04210,12125,KEGG,Bcl2l11,Apoptosis
+mmu04210,12333,KEGG,Capn1,Apoptosis
+mmu04210,12334,KEGG,Capn2,Apoptosis
+mmu04210,12364,KEGG,Casp12,Apoptosis
+mmu04210,12366,KEGG,Casp2,Apoptosis
+mmu04210,12367,KEGG,Casp3,Apoptosis
+mmu04210,12368,KEGG,Casp6,Apoptosis
+mmu04210,12369,KEGG,Casp7,Apoptosis
+mmu04210,12370,KEGG,Casp8,Apoptosis
+mmu04210,12371,KEGG,Casp9,Apoptosis
+mmu04210,12633,KEGG,Cflar,Apoptosis
+mmu04210,12675,KEGG,Chuk,Apoptosis
+mmu04210,12983,KEGG,Csf2rb,Apoptosis
+mmu04210,12984,KEGG,Csf2rb2,Apoptosis
+mmu04210,13030,KEGG,Ctsb,Apoptosis
+mmu04210,13032,KEGG,Ctsc,Apoptosis
+mmu04210,13033,KEGG,Ctsd,Apoptosis
+mmu04210,13036,KEGG,Ctsh,Apoptosis
+mmu04210,13038,KEGG,Ctsk,Apoptosis
+mmu04210,13039,KEGG,Ctsl,Apoptosis
+mmu04210,13040,KEGG,Ctss,Apoptosis
+mmu04210,13041,KEGG,Ctsw,Apoptosis
+mmu04210,13063,KEGG,Cycs,Apoptosis
+mmu04210,13067,KEGG,Cyct,Apoptosis
+mmu04210,13163,KEGG,Daxx,Apoptosis
+mmu04210,13197,KEGG,Gadd45a,Apoptosis
+mmu04210,13198,KEGG,Ddit3,Apoptosis
+mmu04210,13347,KEGG,Dffa,Apoptosis
+mmu04210,13368,KEGG,Dffb,Apoptosis
+mmu04210,13665,KEGG,Eif2s1,Apoptosis
+mmu04210,13666,KEGG,Eif2ak3,Apoptosis
+mmu04210,13804,KEGG,Endog,Apoptosis
+mmu04210,14082,KEGG,Fadd,Apoptosis
+mmu04210,14102,KEGG,Fas,Apoptosis
+mmu04210,14103,KEGG,Fasl,Apoptosis
+mmu04210,14281,KEGG,Fos,Apoptosis
+mmu04210,14939,KEGG,Gzmb,Apoptosis
+mmu04210,15461,KEGG,Hras,Apoptosis
+mmu04210,16150,KEGG,Ikbkb,Apoptosis
+mmu04210,16151,KEGG,Ikbkg,Apoptosis
+mmu04210,16187,KEGG,Il3,Apoptosis
+mmu04210,16188,KEGG,Il3ra,Apoptosis
+mmu04210,16438,KEGG,Itpr1,Apoptosis
+mmu04210,16439,KEGG,Itpr2,Apoptosis
+mmu04210,16440,KEGG,Itpr3,Apoptosis
+mmu04210,16476,KEGG,Jun,Apoptosis
+mmu04210,16653,KEGG,Kras,Apoptosis
+mmu04210,16905,KEGG,Lmna,Apoptosis
+mmu04210,16906,KEGG,Lmnb1,Apoptosis
+mmu04210,16907,KEGG,Lmnb2,Apoptosis
+mmu04210,170770,KEGG,Bbc3,Apoptosis
+mmu04210,17210,KEGG,Mcl1,Apoptosis
+mmu04210,17873,KEGG,Gadd45b,Apoptosis
+mmu04210,18033,KEGG,Nfkb1,Apoptosis
+mmu04210,18035,KEGG,Nfkbia,Apoptosis
+mmu04210,18049,KEGG,Ngf,Apoptosis
+mmu04210,18176,KEGG,Nras,Apoptosis
+mmu04210,18211,KEGG,Ntrk1,Apoptosis
+mmu04210,18607,KEGG,Pdpk1,Apoptosis
+mmu04210,18646,KEGG,Prf1,Apoptosis
+mmu04210,18706,KEGG,Pik3ca,Apoptosis
+mmu04210,18707,KEGG,Pik3cd,Apoptosis
+mmu04210,18708,KEGG,Pik3r1,Apoptosis
+mmu04210,18709,KEGG,Pik3r2,Apoptosis
+mmu04210,18710,KEGG,Pik3r3,Apoptosis
+mmu04210,18952,KEGG,Septin4,Apoptosis
+mmu04210,19249,KEGG,Ptpn13,Apoptosis
+mmu04210,19697,KEGG,Rela,Apoptosis
+mmu04210,19766,KEGG,Ripk1,Apoptosis
+mmu04210,20739,KEGG,Spta1,Apoptosis
+mmu04210,20740,KEGG,Sptan1,Apoptosis
+mmu04210,21926,KEGG,Tnf,Apoptosis
+mmu04210,21933,KEGG,Tnfrsf10b,Apoptosis
+mmu04210,21937,KEGG,Tnfrsf1a,Apoptosis
+mmu04210,22029,KEGG,Traf1,Apoptosis
+mmu04210,22030,KEGG,Traf2,Apoptosis
+mmu04210,22035,KEGG,Tnfsf10,Apoptosis
+mmu04210,22059,KEGG,Trp53,Apoptosis
+mmu04210,22142,KEGG,Tuba1a,Apoptosis
+mmu04210,22143,KEGG,Tuba1b,Apoptosis
+mmu04210,22144,KEGG,Tuba3a,Apoptosis
+mmu04210,22145,KEGG,Tuba4a,Apoptosis
+mmu04210,22146,KEGG,Tuba1c,Apoptosis
+mmu04210,22147,KEGG,Tuba3b,Apoptosis
+mmu04210,229445,KEGG,Ctso,Apoptosis
+mmu04210,235587,KEGG,Parp3,Apoptosis
+mmu04210,23797,KEGG,Akt3,Apoptosis
+mmu04210,238463,KEGG,Tubal3,Apoptosis
+mmu04210,23882,KEGG,Gadd45g,Apoptosis
+mmu04210,26395,KEGG,Map2k1,Apoptosis
+mmu04210,26396,KEGG,Map2k2,Apoptosis
+mmu04210,26408,KEGG,Map3k5,Apoptosis
+mmu04210,26413,KEGG,Mapk1,Apoptosis
+mmu04210,26414,KEGG,Mapk10,Apoptosis
+mmu04210,26417,KEGG,Mapk3,Apoptosis
+mmu04210,26419,KEGG,Mapk8,Apoptosis
+mmu04210,26420,KEGG,Mapk9,Apoptosis
+mmu04210,26926,KEGG,Aifm1,Apoptosis
+mmu04210,328417,KEGG,Parp4,Apoptosis
+mmu04210,53857,KEGG,Tuba8,Apoptosis
+mmu04210,53859,KEGG,Map3k14,Apoptosis
+mmu04210,56464,KEGG,Ctsf,Apoptosis
+mmu04210,57913,KEGG,Pidd1,Apoptosis
+mmu04210,58801,KEGG,Pmaip1,Apoptosis
+mmu04210,64138,KEGG,Ctsz,Apoptosis
+mmu04210,64704,KEGG,Htra2,Apoptosis
+mmu04210,66593,KEGG,Diablo,Apoptosis
+mmu04210,69601,KEGG,Dab2ip,Apoptosis
+mmu04210,71609,KEGG,Tradd,Apoptosis
+mmu04210,74769,KEGG,Pik3cb,Apoptosis
+mmu04210,78943,KEGG,Ern1,Apoptosis
