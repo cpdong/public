@@ -224,7 +224,9 @@ CIBERSORT <- function(mixture_file, outfile="CIBERSORT-Results.txt", sig_matrix=
     }
 
     #save results
-    write.table(rbind(header,output), file=outfile, sep="\t", row.names=F, col.names=F, quote=F)
+    #write.table(rbind(header,output), file=outfile, sep="\t", row.names=F, col.names=F, quote=F)
+    write.table(rbind(header,round(output,4)), file=outfile, sep="\t", row.names=F, col.names=F, quote=F)
+
     
     #return matrix object containing all results
     obj <- rbind(header,output)
