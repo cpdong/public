@@ -1,1 +1,1 @@
-Storage images for demo repo picture embedding.
+# Storage images for demo repo picture embedding.
