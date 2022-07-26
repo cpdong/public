@@ -60,3 +60,24 @@ def command(pdbId=None, pdbFile=None, position=None, chain=None, bg_color=None, 
     cmd.set ("sphere_scale", sphe_size, selection=object)
 # plotResi('myresi')
 #
+
+def add(pdbId=None, pdbFile=None, position=None, chain=None, sphe_size=None, **kwargs):
+    if sphe_size==None:
+        sphe_size=3
+    cmd.select('myresi2', 'chain '+ chain + ' and resi %s' % position)
+    #def plotResi(selection):
+    model = cmd.get_model('myresi2')
+    x, y, z = 0, 0, 0
+    for a in model.atom:
+        x += a.coord[0]
+        y += a.coord[1]
+        z += a.coord[2]
+    pos=[x/len(model.atom), y/len(model.atom), z/len(model.atom)]
+    print(pos)
+
+    object = cmd.get_legal_name("myrei2")
+    object = cmd.get_unused_name(object + "_COM", 0)
+    cmd.delete(object)
+    cmd.pseudoatom(object, pos=pos)
+    cmd.show("spheres", object)
+    cmd.set ("sphere_scale", sphe_size, selection=object)
