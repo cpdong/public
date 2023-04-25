@@ -1,0 +1,37 @@
+TCGA_abbrev	OncotreeLineage	OncotreePrimaryDisease	OncotreeSubtype
+DLBC	Lymphoid	Non-Hodgkin Lymphoma	"Diffuse Large B-Cell Lymphoma, NOS"
+MESO	Pleura	Pleural Mesothelioma	
+LAML	Myeloid	Acute Myeloid Leukemia	
+ACC	Adrenal Gland	Adrenocortical Carcinoma	Adrenocortical Carcinoma
+BLCA	Bladder/Urinary Tract	Bladder Urothelial Carcinoma	
+LGG	CNS/Brain	Diffuse Glioma	Anaplastic Astrocytoma|Astrocytoma|Oligodendroglioma  
+BRCA	Breast	"Breast Ductal Carcinoma In Situ|Breast Neoplasm, NOS|Invasive Breast Carcinoma"	
+CESC	Cervix	Cervical Squamous Cell Carcinoma	Cervical Squamous Cell Carcinoma
+CHOL	Biliary Tract	Intraductal Papillary Neoplasm of the Bile Duct	
+COAD	Bowel	Colorectal Adenocarcinoma	Colon Adenocarcinoma
+READ	Bowel	Colorectal Adenocarcinoma	Rectal Adenocarcinoma
+COADREAD	Bowel	Colorectal Adenocarcinoma	
+ESCA	Esophagus/Stomach		Esophageal Adenocarcinoma|Esophageal Squamous Cell Carcinoma
+GBM	CNS/Brain	Diffuse Glioma	Glioblastoma
+HNSC	Head and Neck	Head and Neck Squamous Cell Carcinoma	
+RCC	Kidney	Renal Cell Carcinoma	
+KICH	--	--	--
+KIRC	Kidney	Renal Cell Carcinoma	Renal Clear Cell Carcinoma
+KIRP	Kidney	Renal Cell Carcinoma	Papillary Renal Cell Carcinoma
+LIHC	Liver	Hepatocellular Carcinoma	
+LUAD	Lung	Non-Small Cell Lung Cancer	Lung Adenocarcinoma
+LUSC	Lung	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma
+NSCLC	Lung	Non-Small Cell Lung Cancer	
+OV	Ovary/Fallopian Tube	"Ovarian Cancer, Other|Ovarian Epithelial Tumor"	
+PAAD	Pancreas	Pancreatic Adenocarcinoma	
+PCPG	--	--	--
+PRAD	Prostate	Prostate Adenocarcinoma	
+SARC	Soft Tissue		
+SKCM	Skin	Melanoma	
+STAD	Esophagus/Stomach		Adenocarcinoma of the Gastroesophageal Junction|Adenosquamous Carcinoma of the Stomach|Diffuse Type Stomach Adenocarcinoma|Mucinous Stomach Adenocarcinoma|Signet Ring Cell Carcinoma of the Stomach|Small Cell Carcinoma of the Stomach|Stomach Adenocarcinoma|Tubular Stomach Adenocarcinoma
+TGCT	--	--	--
+THYM	--	--	--
+THCA	Thyroid		
+UCS	Uterus	Endometrial Carcinoma	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor
+UCEC	Uterus	Endometrial Carcinoma	Endometrial Carcinoma
+UVM	Eye	Ocular Melanoma	
