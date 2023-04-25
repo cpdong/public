@@ -1,4 +1,4 @@
-TCGA_abbrev	OncotreeLineage	OncotreePrimaryDisease	OncotreeSubtype
+TCGAcode	OncotreeLineage	OncotreePrimaryDisease	OncotreeSubtype
 DLBC	Lymphoid	Non-Hodgkin Lymphoma	"Diffuse Large B-Cell Lymphoma, NOS"
 MESO	Pleura	Pleural Mesothelioma	
 LAML	Myeloid	Acute Myeloid Leukemia	
