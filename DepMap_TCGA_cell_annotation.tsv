@@ -22,6 +22,7 @@ LIHC	Liver	Hepatocellular Carcinoma
 LUAD	Lung	Non-Small Cell Lung Cancer	Lung Adenocarcinoma
 LUSC	Lung	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma
 NSCLC	Lung	Non-Small Cell Lung Cancer	
+MM	Lymphoid	Non-Hodgkin Lymphoma	Plasma Cell Myeloma
 OV	Ovary/Fallopian Tube	"Ovarian Cancer, Other|Ovarian Epithelial Tumor"	
 PAAD	Pancreas	Pancreatic Adenocarcinoma	
 PCPG	--	--	--
