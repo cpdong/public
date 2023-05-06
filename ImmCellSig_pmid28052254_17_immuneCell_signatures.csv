@@ -1,4 +1,4 @@
-Cell.type,Immunity,Name_in_19cell,Metagene,entrezgene_id,ensembl_id
+Cell.type,Immunity,Name_in_19cell,hgnc_symbol,entrezgene_id,ensembl_gene_id
 Activated B cell,Adaptive,B cell activated,IGHM,3507,ENSG00000211899
 Activated B cell,Adaptive,B cell activated,IGKC,3514,ENSG00000211592
 Activated B cell,Adaptive,B cell activated,CLEC17A,388512,ENSG00000187912
