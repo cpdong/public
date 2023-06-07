@@ -1,6 +1,7 @@
-"""
-@author: cpdong
-"""
+#######################
+### @author: cpdong ###
+#######################
+
 volcanoFunc<- function(data_file, logfcCol, pvalCol, fc_cutoff, pval_cutoff, genenameCol, xmin=-5, xmax=5,
                             ymax=50, cexSize=1, label_gene){
   library(ggplot2)
