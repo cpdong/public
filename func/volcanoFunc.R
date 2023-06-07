@@ -6,6 +6,7 @@ volcanoFunc<- function(data_file, logfcCol, pvalCol, fc_cutoff, pval_cutoff, gen
                             ymax=50, cexSize=1, label_gene){
   library(ggplot2)
   library(ggrepel)
+  library(ggrastr)
   if(grepl("\\.txt$", data_file) | grepl("\\.tsv$", data_file)){
     data<- read.csv(data_file, header=T, sep='\t')
   }else if(grepl("\\.csv$", data_file)){
@@ -35,7 +36,8 @@ volcanoFunc<- function(data_file, logfcCol, pvalCol, fc_cutoff, pval_cutoff, gen
       scale_y_continuous(limits=c(0,ymax),expand=c(0,NA)) +
       scale_x_continuous(limits=c(xmin, xmax)) + 
       xlab("log2FC") + ylab(paste("-log10(",pvalCol,")", sep="")) + 
-      geom_point(size=as.numeric(cexSize), alpha=0.6, shape=16, na.rm = T) +
+      # geom_point(size=as.numeric(cexSize), alpha=0.6, shape=16, na.rm = T) +
+      geom_point_rast(size=as.numeric(cexSize), alpha=0.6, shape=16, na.rm = T, raster.dpi = 100) +
       theme_bw(base_size = 14) + 
       theme(legend.position = "top",
             legend.title= element_blank(),
