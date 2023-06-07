@@ -26,7 +26,7 @@ volcanoFunc<- function(data_file, logfcCol, pvalCol, fc_cutoff, pval_cutoff, gen
     data$lgPval = -log(as.numeric(data[,pvalCol]), 10)
     data$logfcColumn = as.numeric(data[,logfcCol])
     
-    options(ggrepel.max.overlaps = Inf)
+    #options(ggrepel.max.overlaps = Inf)
     plot<- ggplot(data, aes(x = logfcColumn, y = lgPval, color = group))+
       geom_text_repel(aes(label=ifelse(labeled=="yes", data[,geneCol],'')),
                       box.padding = unit(0.35, "lines"), point.padding = unit(0.35, "lines"), force = 1,
@@ -35,7 +35,7 @@ volcanoFunc<- function(data_file, logfcCol, pvalCol, fc_cutoff, pval_cutoff, gen
       scale_y_continuous(limits=c(0,ymax),expand=c(0,NA)) +
       scale_x_continuous(limits=c(xmin, xmax)) + 
       xlab("log2FC") + ylab(paste("-log10(",pvalCol,")", sep="")) + 
-      geom_point(size=as.numeric(cexSize), alpha=1, shape=16, na.rm = T) +
+      geom_point(size=as.numeric(cexSize), alpha=0.6, shape=16, na.rm = T) +
       theme_bw(base_size = 14) + 
       theme(legend.position = "top",
             legend.title= element_blank(),
