@@ -26,11 +26,11 @@ volcanoFunc<- function(data_file, logfcCol, pvalCol, fc_cutoff, pval_cutoff, gen
     data$lgPval = -log(as.numeric(data[,pvalCol]), 10)
     data$logfcColumn = as.numeric(data[,logfcCol])
     
-    #options(ggrepel.max.overlaps = Inf)
+    options(ggrepel.max.overlaps = Inf)
     plot<- ggplot(data, aes(x = logfcColumn, y = lgPval, color = group))+
       geom_text_repel(aes(label=ifelse(labeled=="yes", data[,geneCol],'')),
                       box.padding = unit(0.35, "lines"), point.padding = unit(0.35, "lines"), force = 1,
-                      max.overlaps = 10,colour='black',size=3) + 
+                      colour='black',size=3) + 
       scale_colour_manual(values = colors) +
       scale_y_continuous(limits=c(0,ymax),expand=c(0,NA)) +
       scale_x_continuous(limits=c(xmin, xmax)) + 
