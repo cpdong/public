@@ -1,10 +1,17 @@
 """
 @author: cpdong
 """
-volcanoFunc<- function(data, logfcCol, pvalCol, fc_cutoff, pval_cutoff, genenameCol, xmin=-5, xmax=5,
+volcanoFunc<- function(data_file, logfcCol, pvalCol, fc_cutoff, pval_cutoff, genenameCol, xmin=-5, xmax=5,
                             ymax=50, cexSize=1, label_gene){
   library(ggplot2)
   library(ggrepel)
+  if(grepl("\\.txt$", data_file) | grepl("\\.tsv$", data_file)){
+    data<- read.csv(data_file, header=T, sep='\t')
+  }else if(grepl("\\.csv$", data_file)){
+    data<- read.csv(data_file, header=T)
+  }else{
+    print('Check your file, only accept .csv/.txt/.tsv suffix files')
+  }
   if( logfcCol =="" |  pvalCol == ""){ return(NULL) 
   }else{
     data["group"]<- "insignificant"
