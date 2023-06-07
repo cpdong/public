@@ -30,7 +30,7 @@ volcanoFunc<- function(data_file, logfcCol, pvalCol, fc_cutoff, pval_cutoff, gen
     plot<- ggplot(data, aes(x = logfcColumn, y = lgPval, color = group))+
       geom_text_repel(aes(label=ifelse(labeled=="yes", data[,geneCol],'')),
                       box.padding = unit(0.35, "lines"), point.padding = unit(0.35, "lines"), force = 1,
-                      colour='black',size=3) + 
+                      max.overlaps = 10,colour='black',size=3) + 
       scale_colour_manual(values = colors) +
       scale_y_continuous(limits=c(0,ymax),expand=c(0,NA)) +
       scale_x_continuous(limits=c(xmin, xmax)) + 
