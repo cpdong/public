@@ -2,7 +2,7 @@
 ### @author: cpdong ###
 #######################
 
-volcanoFunc<- function(data_file, logfcCol, pvalCol, fc_cutoff, pval_cutoff, genenameCol, xmin=-5, xmax=5,
+volcanoFunc<- function(data_file, logfcCol, pvalCol, fc_cutoff, pval_cutoff, geneCol, xmin=-5, xmax=5,
                             ymax=50, cexSize=1, label_gene){
   library(ggplot2)
   library(ggrepel)
@@ -21,7 +21,7 @@ volcanoFunc<- function(data_file, logfcCol, pvalCol, fc_cutoff, pval_cutoff, gen
     
     colors = c("grey","#D62728FF", "#1F77B4FF")
     names(colors) = c("insignificant","increased","decreased")
-    labeled_genes<- intersect(strsplit(gsub(" ","",label_gene),"\n|,")[[1]], data[,genenameCol])
+    labeled_genes<- intersect(strsplit(gsub(" ","",label_gene),"\n|,")[[1]], data[,geneCol])
     data["labeled"]<- ifelse(data[,geneCol] %in% labeled_genes, "yes", "no")
     data$lgPval = -log(as.numeric(data[,pvalCol]), 10)
     data$logfcColumn = as.numeric(data[,logfcCol])
