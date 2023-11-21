@@ -212,7 +212,7 @@ gseaNb <- function(object = NULL,
     line <- ggplot2::geom_line(ggplot2::aes_(color = ~Description),
                                size = lineSize)
     line.col <- ggplot2::scale_color_manual(values = mulcol,
-                                            labels = ledend.t) #, name = 'Term Name')
+                                            labels = ledend.t, name = NULL)
     
     legend.position = legend.position
   }
