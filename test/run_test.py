@@ -522,7 +522,7 @@ def qc1_prefilter(sequence: str, config: QCConfig) -> QCResult:
         hydrophobic_percent=None,
         aromatic_percent=None,
         charged_percent=None,
-        positive_percent=c
+        positive_percent=None,
         negative_percent=None,
         net_charge=None,
         shannon_entropy=None,
