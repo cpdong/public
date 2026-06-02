@@ -2062,12 +2062,9 @@ def _batch_generation_worker(args_tuple):
                 # Predict PPI for trimmed sequences
                 ppi_probs = ppi_predictor.predict_batch(target_seq, qc2_passed_seqs)
                 
-                # Also predict PPI for original (full) sequences
-                ppi_probs_full = ppi_predictor.predict_batch(target_seq, qc2_original)
-                
                 batch_results = []
-                for seq, ppi_prob, ppi_prob_full, qc_result, sf_result, orig_seq in zip(
-                    qc2_passed_seqs, ppi_probs, ppi_probs_full, qc2_passed_results, qc2_sf_results, qc2_original
+                for seq, ppi_prob, qc_result, sf_result, orig_seq in zip(
+                    qc2_passed_seqs, ppi_probs, qc2_passed_results, qc2_sf_results, qc2_original
                 ):
                     if ppi_prob >= ppi_threshold:
                         # Build result dict
@@ -2076,7 +2073,6 @@ def _batch_generation_worker(args_tuple):
                             'seq_original': orig_seq,
                             'seq_trimmed': seq,
                             'ppi_prob': ppi_prob,
-                            'fullseq_ppi_prob': ppi_prob_full,
                             'length': len(seq),
                             'max_aa_percent': qc_result.max_single_aa_percent,
                             'hydrophobic_pct': qc_result.hydrophobic_percent,
@@ -2104,7 +2100,7 @@ def _batch_generation_worker(args_tuple):
                         batch_results.append(result)
                 
                 # Explicitly clean up prediction results to prevent memory accumulation
-                del ppi_probs, ppi_probs_full
+                del ppi_probs
                 
                 # Force GPU cleanup after PPI prediction
                 torch_gc()
@@ -2373,8 +2369,7 @@ class BinderDesignPipeline:
             f"{result['charged_pct']:.2f}\t"
             f"{result['entropy']:.4f}\t"
             f"{result['net_charge']}\t"
-            f"{result['ppi_prob']:.4f}\t"
-            f"{fmt_float(result.get('fullseq_ppi_prob'), 4)}\n"
+            f"{result['ppi_prob']:.4f}\n"
         )
         with open(output_csv, 'a') as fout:
             fout.write(line)
@@ -2508,14 +2503,11 @@ class BinderDesignPipeline:
             # Predict PPI for trimmed sequences
             ppi_probs = self.ppi_predictor.predict_batch(self.target_seq, qc2_passed_seqs)
             
-            # Also predict PPI for original (full) sequences
-            ppi_probs_full = self.ppi_predictor.predict_batch(self.target_seq, qc2_original)
-            
             # Clear ESM2 cache after PPI prediction
             torch_gc()
             
-            for i, (seq, ppi_prob, ppi_prob_full, qc_result, sf_result, orig_seq) in enumerate(
-                zip(qc2_passed_seqs, ppi_probs, ppi_probs_full, qc2_passed_results, qc2_sf_results, qc2_original)
+            for i, (seq, ppi_prob, qc_result, sf_result, orig_seq) in enumerate(
+                zip(qc2_passed_seqs, ppi_probs, qc2_passed_results, qc2_sf_results, qc2_original)
             ):
                 if ppi_prob >= self.ppi_threshold:
                     # Build result dict
@@ -2524,7 +2516,6 @@ class BinderDesignPipeline:
                         'seq_original': orig_seq,
                         'seq_trimmed': seq,
                         'ppi_prob': ppi_prob,
-                        'fullseq_ppi_prob': ppi_prob_full,
                         'length': len(seq),
                         'max_aa_percent': qc_result.max_single_aa_percent,
                         'hydrophobic_pct': qc_result.hydrophobic_percent,
@@ -2552,7 +2543,7 @@ class BinderDesignPipeline:
                     results.append(result)
             
             # Explicitly clean up prediction results to prevent memory accumulation
-            del ppi_probs, ppi_probs_full
+            del ppi_probs
             
             ppi_passed = len(results)
             print(f"  PPI: {ppi_passed}/{len(qc2_passed_seqs)} passed (threshold: {self.ppi_threshold})")
@@ -2588,7 +2579,7 @@ class BinderDesignPipeline:
             header += 'helix_fraction\tstrand_fraction\tstructured_fraction\tcoil_fraction\tss_type\t'
             header += 'mean_disorder\tburied_fraction\t'
             header += 'max_aa_percent\thydrophobic_pct\taromatic_pct\tcharged_pct\tentropy\tnet_charge\t'
-            header += 'PPI_prob\tfullseq_ppi_prob\n'
+            header += 'PPI_prob\n'
             fout.write(header)
         
         print(f"\n{'='*80}")
